@@ -6,3 +6,14 @@ DARK-PURPLE: #150050
 PURPLE: #3F0071
 PINK: #FB2576
 */
+
+/*---------------------------------------------------------- NAVBAR ------------------------------------------------------------*/
+#NavLogoContainer {
+  width: 160px;
+  height: auto;
+}
+
+#NavLogoContainer img {
+  width: 160px;
+  height: auto;
+}
