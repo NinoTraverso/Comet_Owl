@@ -20,17 +20,17 @@ GRAY-BLUE: #45717a
 #appContainer,
 html,
 body {
-  background-color: #f5f5f5;
+  background-color: #1f1f1f;
 }
 * {
   font-family: "Dosis", sans-serif;
-  color: #3c3c3c;
+  color: whitesmoke;
 }
 
 /*---------------------------------------------------------- NAVBAR ------------------------------------------------------------*/
 nav {
   font-family: "Nova Mono", monospace;
-  background-color: #45717a;
+  background-color: rgba(69, 113, 122, 0.4);
 }
 
 #NavLogoContainer {
@@ -45,5 +45,227 @@ nav {
 
 #NavPageLinks * {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
+}
+
+/* ------------------------------------------------------------- HOME CONTENT -----------------------------------------------------------*/
+
+/* ---------------SOLAR SYSTEM ------------------*/
+@keyframes wiggle-mercury {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes wiggle-venus {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes wiggle-earth {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+@keyframes wiggle-mars {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes wiggle-jupiter {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-26px);
+  }
+}
+
+@keyframes wiggle-saturn {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes wiggle-uranus {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes wiggle-neptune {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-22px);
+  }
+}
+
+#solarSystem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+
+.planet {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+#sun {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  background: #ffcc00;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgb(255, 97, 14);
+  }
+
+  100% {
+    box-shadow: 0 0 100px rgb(255, 97, 14);
+  }
+}
+
+#mercury {
+  width: 0.5vw;
+  height: 0.5vw;
+  animation: wiggle-mercury 3s ease-in-out infinite;
+  background-color: #d8d8d8;
+}
+
+#venus {
+  width: 1.2vw;
+  height: 1.2vw;
+  animation: wiggle-venus 2s ease-in-out infinite;
+  background-color: #e5aa70;
+}
+
+#earth {
+  position: relative;
+  width: 1.3vw;
+  height: 1.3vw;
+  animation: wiggle-earth 1s ease-in-out infinite;
+  background-color: #4d79ff;
+}
+
+#earth::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: orbit-moon 2s linear infinite;
+}
+
+@keyframes orbit-moon {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(1.5vw) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(1.5vw)
+      rotate(-360deg);
+  }
+}
+
+#mars {
+  width: 0.7vw;
+  height: 0.7vw;
+  animation: wiggle-mars 5s ease-in-out infinite;
+  background-color: #ff6347;
+}
+
+#jupiter {
+  width: 12vw;
+  height: 12vw;
+  margin-right: 30px;
+  animation: wiggle-jupiter 6s ease-in-out infinite;
+  background: linear-gradient(10deg, #a52a2a, #ffd700, #8b4513, #a52a2a);
+}
+
+#saturn {
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+  margin-right: 20px;
+  margin-left: 20px;
+  animation: wiggle-saturn 8s ease-in-out infinite;
+  background: linear-gradient(-20deg, #eba834, #a66e0d);
+}
+
+#saturn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 14vw;
+  height: 14vw;
+  box-shadow: 0 0 0 5px inset, 0 0 0 10px #ffe1ab, 0 0 0 15px #d8ae6d,
+    0 0 0 20px #655f45, 0 0 0 25px #dbb57c, 0 0 0 30px #b89c72;
+  border-radius: 50%;
+}
+
+#uranus {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 30px;
+  animation: wiggle-uranus 9s ease-in-out infinite;
+  background-color: #aeeeee;
+}
+
+#neptune {
+  width: 4.5vw;
+  height: 4.5vw;
+  animation: wiggle-neptune 10s ease-in-out infinite;
+  background: linear-gradient(45deg, #3366ff, #3366ff, #4ecca3);
 }
