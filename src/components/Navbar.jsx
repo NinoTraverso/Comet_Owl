@@ -8,24 +8,26 @@ import Contact from "./Contact";
 
 function Navbar() {
   return (
-    <div>
+    <div className="fixed-top">
       <BrowserRouter>
-        <nav>
-          <Link to="/Home" id="NavLogoContainer">
-            <img src="/assets/logo/logoCometOwl.png" alt="Comet Owl Logo" />
-          </Link>
-          <div>
-            <Link to="/Home" className="text-decoration-none">
-              <h6 className="text-decoration-none">Home</h6>
+        <nav className="d-flex flex-row jusify-content-start align-items-center">
+          <div id="NavLogoContainer">
+            <Link to="/Home">
+              <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
+            </Link>
+          </div>
+          <div id="NavPageLinks" className="d-flex flex-row">
+            <Link to="/Home">
+              <h4 className="mx-3">Home</h4>
             </Link>
             <Link to="/Articles">
-              <h6>Articles</h6>
+              <h4 className="mx-3">Articles</h4>
             </Link>
             <Link to="/Glossary">
-              <h6>Glossary</h6>
+              <h4 className="mx-3">Glossary</h4>
             </Link>
             <Link to="/Contact">
-              <h6>Contact</h6>
+              <h4 className="mx-3">Contact</h4>
             </Link>
           </div>
         </nav>
