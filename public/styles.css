@@ -15,6 +15,7 @@ DARK-PURPLE: #363062
 PURPLE: #4D4C7D
 ORANGE: #F99417
 WHITE: #F5F5F5
+GRAY-BLUE: #45717a
 */
 #appContainer,
 html,
@@ -29,7 +30,7 @@ body {
 /*---------------------------------------------------------- NAVBAR ------------------------------------------------------------*/
 nav {
   font-family: "Nova Mono", monospace;
-  background-color: #4d4c7d;
+  background-color: #45717a;
 }
 
 #NavLogoContainer {
