@@ -8,9 +8,9 @@ import Contact from "./Contact";
 
 function Navbar() {
   return (
-    <div className="fixed-top">
+    <div>
       <BrowserRouter>
-        <nav className="d-flex flex-row jusify-content-start align-items-center">
+        <nav className="d-flex flex-row jusify-content-start align-items-center fixed-top">
           <div id="NavLogoContainer">
             <Link to="/Home">
               <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
