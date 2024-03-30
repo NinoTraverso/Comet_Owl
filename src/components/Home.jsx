@@ -14,11 +14,9 @@ function Home() {
         <div id="uranus" className="planet"></div>
         <div id="neptune" className="planet"></div>
       </div>
-      <h1 className="loader d-flex justify-content-center m-5">
-        Welcome to CometOwl
-      </h1>
+      <div className="loader d-flex justify-content-center m-5 mx-auto"></div>
       <div>
-        <div className="pelicanNebulaImg">
+        <div className="pelicanNebulaImg m-5">
           <img
             src="./assets/space-images/northAmericanPelicanNebula.jpg"
             alt="North American and Pelican Nebula"

@@ -271,12 +271,33 @@ nav {
 }
 
 /* ----------- PELICAN CONTAINER ----------*/
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  --c: #ffffff;
+  width: fit-content;
+  font-weight: lighter;
+  font-family: monospace;
+  font-size: 50px;
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 0 0 var(--c), 24ch 0 var(--c);
+  animation: l6 5s infinite linear;
+}
+.loader:before {
+  content: "Welcome to CometOwl...  ";
+}
+@keyframes l6 {
+  to {
+    text-shadow: -24ch 0 var(--c), 0ch 0 var(--c);
+  }
+}
 .pelicanNebulaImg {
-  width: 800px;
+  width: 700px;
   height: auto;
 }
 
 .pelicanNebulaImg img {
-  width: 800px;
+  width: 700px;
   height: auto;
 }
