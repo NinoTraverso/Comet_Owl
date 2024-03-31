@@ -3,9 +3,12 @@ import Analytics from "./Analytics";
 
 function Home() {
   return (
-    <div>
+    <div id="homeContent">
       <Analytics />
-      <div id="solarSystem" className="mx-5">
+      <div
+        id="solarSystem"
+        className="d-flex flex-row justify-content-between align-items-center mx-3"
+      >
         <div id="sun"></div>
         <div id="mercury" className="planet"></div>
         <div id="venus" className="planet"></div>
@@ -18,7 +21,7 @@ function Home() {
       </div>
       <div className="loader d-flex justify-content-center m-5 mx-auto"></div>
       <div>
-        <div className="pelicanNebulaImg m-5">
+        <div className="pelicanNebulaImg">
           <img
             src="./assets/space-images/northAmericanPelicanNebula.jpg"
             alt="North American and Pelican Nebula"

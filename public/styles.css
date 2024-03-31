@@ -50,6 +50,10 @@ nav {
 
 /* ------------------------------------------------------------- HOME CONTENT -----------------------------------------------------------*/
 
+#homeContent {
+  width: 100vw;
+}
+
 /* ---------------SOLAR SYSTEM ------------------*/
 @keyframes wiggle-mercury {
   0%,
@@ -143,7 +147,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  height: 500px;
 }
 
 .planet {
@@ -293,11 +297,11 @@ nav {
   }
 }
 .pelicanNebulaImg {
-  width: 700px;
+  width: 100%;
   height: auto;
 }
 
 .pelicanNebulaImg img {
-  width: 700px;
+  width: 100%;
   height: auto;
 }
