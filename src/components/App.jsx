@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Analytics from "./Analytics";
 
+import Analytics from "./Analytics";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
