@@ -1,8 +1,10 @@
 import React from "react";
+import Analytics from "./Analytics";
 
 function Home() {
   return (
     <div>
+      <Analytics />
       <div id="solarSystem" className="mx-5">
         <div id="sun"></div>
         <div id="mercury" className="planet"></div>
