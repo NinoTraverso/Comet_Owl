@@ -1,11 +1,13 @@
 import React from "react";
 import Analytics from "./Analytics";
+import SpeedInsights from "./SpeedInsights";
 
 function Home() {
   return (
     <div id="homeContent">
       <div className="nav-separator"></div>
       <Analytics />
+      <SpeedInsights />
       <div
         id="solarSystem"
         className="d-flex flex-row justify-content-between align-items-center mx-3"
