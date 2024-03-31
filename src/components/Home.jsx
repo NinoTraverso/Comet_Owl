@@ -22,6 +22,9 @@ function Home() {
             alt="North American and Pelican Nebula"
           />
         </div>
+        <div>
+          <h1>Adding some text</h1>
+        </div>
       </div>
     </div>
   );
