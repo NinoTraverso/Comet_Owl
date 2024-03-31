@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 function Navbar() {
   return (
-    <div>
+    <div className="mb-5">
       <BrowserRouter>
         <nav className="d-flex flex-row jusify-content-start align-items-center fixed-top">
           <div id="NavLogoContainer">

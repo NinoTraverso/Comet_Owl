@@ -27,6 +27,11 @@ body {
   color: whitesmoke;
 }
 
+.nav-separator {
+  width: 100vw;
+  height: 25vh;
+}
+
 /*---------------------------------------------------------- NAVBAR ------------------------------------------------------------*/
 nav {
   font-family: "Nova Mono", monospace;
@@ -141,13 +146,6 @@ nav {
   50% {
     transform: translateY(-22px);
   }
-}
-
-#solarSystem {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 500px;
 }
 
 .planet {
@@ -282,7 +280,7 @@ nav {
   width: fit-content;
   font-weight: lighter;
   font-family: monospace;
-  font-size: 50px;
+  font-size: 20px;
   color: #0000;
   overflow: hidden;
   text-shadow: 0 0 var(--c), 24ch 0 var(--c);
@@ -296,12 +294,14 @@ nav {
     text-shadow: -24ch 0 var(--c), 0ch 0 var(--c);
   }
 }
+
 .pelicanNebulaImg {
-  width: 100%;
+  max-width: 700px; /* Set a maximum width */
+  width: 100%; /* Ensure it doesn't exceed container width */
   height: auto;
 }
 
 .pelicanNebulaImg img {
-  width: 100%;
+  max-width: 100%; /* Ensure it doesn't exceed container width */
   height: auto;
 }

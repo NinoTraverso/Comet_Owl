@@ -4,6 +4,7 @@ import Analytics from "./Analytics";
 function Home() {
   return (
     <div id="homeContent">
+      <div className="nav-separator"></div>
       <Analytics />
       <div
         id="solarSystem"
