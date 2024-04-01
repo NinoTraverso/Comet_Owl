@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="mb-5">
       <BrowserRouter>
-        <nav className="d-flex flex-row jusify-content-start align-items-center fixed-top">
+        <nav className="d-none d-xl-flex flex-row jusify-content-start align-items-center fixed-top ">
           <div id="NavLogoContainer">
             <Link to="/Home">
               <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
@@ -29,6 +29,53 @@ function Navbar() {
             <Link to="/Contact">
               <h4 className="mx-3">Contact</h4>
             </Link>
+          </div>
+        </nav>
+        <nav
+          id="collapseNavbar"
+          className=" navbar navbar-dark d-flex d-xl-none"
+        >
+          <div className="container-fluid d-flex flex-column flex-md-row justify-content-between">
+            <div id="NavLogoContainer">
+              <Link to="/Home">
+                <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
+              </Link>
+            </div>
+            <button
+              className="navbar-toggler align-self-end align-self-md-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
+                    <h4 className="mx-3">Home</h4>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/articles">
+                    <h4 className="mx-3">Articles</h4>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/glossary">
+                    <h4 className="mx-3">Glossary</h4>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/contact">
+                    <h4 className="mx-3">Contact</h4>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <Routes>
