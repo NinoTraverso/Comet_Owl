@@ -17,9 +17,16 @@ ORANGE: #F99417
 WHITE: #F5F5F5
 GRAY-BLUE: #45717a
 */
-#appContainer,
+
 html,
 body {
+  overflow-x: hidden;
+  background-color: #1f1f1f;
+}
+
+#appContainer {
+  width: 100vw;
+  overflow-x: hidden;
   background-color: #1f1f1f;
 }
 * {
@@ -28,7 +35,7 @@ body {
 }
 
 .nav-separator {
-  width: 100vw;
+  width: 100%;
   height: 25vh;
 }
 
@@ -54,10 +61,6 @@ nav {
 }
 
 /* ------------------------------------------------------------- HOME CONTENT -----------------------------------------------------------*/
-
-#homeContent {
-  width: 100vw;
-}
 
 /* ---------------SOLAR SYSTEM ------------------*/
 @keyframes wiggle-mercury {
@@ -270,6 +273,12 @@ nav {
   height: 4.5vw;
   animation: wiggle-neptune 10s ease-in-out infinite;
   background: linear-gradient(45deg, #3366ff, #3366ff, #4ecca3);
+}
+
+/*---------  WELCOME TEXT -----------*/
+.welcomeText {
+  width: 100%;
+  height: 500px;
 }
 
 /* ----------- PELICAN CONTAINER ----------*/

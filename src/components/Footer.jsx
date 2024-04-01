@@ -4,7 +4,7 @@ const currentYear = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer className="fixed-bottom">
+    <footer>
       <h6 className="mx-3">Copyright &#169; {currentYear} - CometOwl</h6>
     </footer>
   );

@@ -4,13 +4,13 @@ import SpeedInsights from "./SpeedInsights";
 
 function Home() {
   return (
-    <div id="homeContent">
+    <div>
       <div className="nav-separator"></div>
       <Analytics />
       <SpeedInsights />
       <div
         id="solarSystem"
-        className="d-flex flex-row justify-content-between align-items-center mx-3"
+        className="d-flex flex-row justify-content-between align-items-center mx-4"
       >
         <div id="sun"></div>
         <div id="mercury" className="planet"></div>
@@ -22,7 +22,9 @@ function Home() {
         <div id="uranus" className="planet"></div>
         <div id="neptune" className="planet"></div>
       </div>
-      <div className="loader d-flex justify-content-center m-5 mx-auto"></div>
+      <div className="welcomeText d-flex justify-content-center align-items-center">
+        <h1>Welcome to CometOwl</h1>
+      </div>
       <div>
         <div className="pelicanNebulaImg">
           <img
