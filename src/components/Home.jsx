@@ -117,6 +117,9 @@ function Home() {
           </button>
         </div>
       </div>
+      <div>
+        <h1>ANother section here</h1>
+      </div>
     </div>
   );
 }
