@@ -118,9 +118,7 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1>ANother section here</h1>
-        <h1>Adding some text</h1>
-        <h1>Adding some more text </h1>
+        
       </div>
     </div>
   );
