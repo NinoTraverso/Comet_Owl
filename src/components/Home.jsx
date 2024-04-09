@@ -66,7 +66,7 @@ function Home() {
       </div>
       <div className="separator"></div>
       {/* ------------------------------------------ FOURTH SECTION ----------------------------------------------- */}
-      <div id="solarSystemCarousel">
+      <div id="solarSystemCarousel d-flex justify-content-center align-items-center">
         <div id="carouselExampleFade" className="carousel slide carousel-fade">
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -118,10 +118,7 @@ function Home() {
         </div>
       </div>
       <div>
-        <h1>
-          Will start in the next few days to work on further features and
-          content
-        </h1>
+        <br />
       </div>
     </div>
   );
