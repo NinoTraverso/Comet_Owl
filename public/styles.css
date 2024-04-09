@@ -413,3 +413,7 @@ nav {
   background-size: cover;
   height: 80vh;
 }
+.carouselImage {
+  width: 400px;
+  height: 400px;
+}

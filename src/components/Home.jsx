@@ -69,25 +69,88 @@ function Home() {
       <div id="solarSystemCarousel d-flex justify-content-center align-items-center">
         <div id="carouselExampleFade" className="carousel slide carousel-fade">
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div id="carouselIamgeContainer" className="carousel-item active">
               <img
                 src="./assets/planets/mercury.jpg"
-                className="d-block w-100"
-                alt="..."
+                className="carouselImage d-block mx-auto"
+                alt="Mercury"
               />
             </div>
             <div className="carousel-item">
               <img
-                src="./assets/planets/mercury.jpg"
-                className="d-block w-100"
-                alt="..."
+                src="./assets/planets/venus.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Venus"
               />
             </div>
             <div className="carousel-item">
               <img
                 src="./assets/planets/earth.jpg"
-                className="d-block w-100"
-                alt="..."
+                className="carouselImage d-block mx-auto"
+                alt="Earth"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/moon.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Moon"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/mars.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Mars"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/asteroidBelt.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Asteroid Belt"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/jupiter.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Jupiter"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/saturn.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Saturn"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/uranus.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Uranus"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/neptune.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Neptune"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/ceres.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Ceres"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="./assets/planets/pluto.jpg"
+                className="carouselImage d-block mx-auto"
+                alt="Pluto"
               />
             </div>
           </div>
