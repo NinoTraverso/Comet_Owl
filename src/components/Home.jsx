@@ -183,8 +183,6 @@ function Home() {
       <div>
         <br />
         <br />
-        <h1>Adding text for the time being...</h1>
-        <h1>Adding some more text...</h1>
       </div>
     </div>
   );
