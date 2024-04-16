@@ -73,7 +73,7 @@ function Home() {
               id="carouselIamgeContainer"
               className="carousel-item active d-flex flex-column flex-xl-row justify-content-center align-items-center"
             >
-              <div>
+              <div id="carouselCard">
                 <img
                   src="./assets/planets/mercury.jpg"
                   className="carouselImage d-block mx-auto"
@@ -97,7 +97,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/venus.jpg"
                   className="carouselImage d-block mx-auto"
@@ -125,7 +125,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/earth.jpg"
                   className="carouselImage d-block mx-auto"
@@ -149,7 +149,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/moon.jpg"
                   className="carouselImage d-block mx-auto"
@@ -173,7 +173,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/mars.jpg"
                   className="carouselImage d-block mx-auto"
@@ -197,7 +197,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/asteroidBelt.jpg"
                   className="carouselImage d-block mx-auto"
@@ -221,7 +221,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/jupiter.jpg"
                   className="carouselImage d-block mx-auto"
@@ -245,7 +245,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/saturn.jpg"
                   className="carouselImage d-block mx-auto"
@@ -269,7 +269,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/uranus.jpg"
                   className="carouselImage d-block mx-auto"
@@ -293,7 +293,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/neptune.jpg"
                   className="carouselImage d-block mx-auto"
@@ -317,7 +317,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/ceres.jpg"
                   className="carouselImage d-block mx-auto"
@@ -341,13 +341,27 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div>
+              <div id="carouselCard mx-auto">
                 <img
                   src="./assets/planets/pluto.jpg"
                   className="carouselImage d-block mx-auto"
                   alt="Pluto"
                 />
-                Pluto
+                <div className="d-flex flex-column justify-content-center align-items-center">
+                  <h2>Pluto</h2>
+                  <h6 className="w-50">
+                    Closest planet to the Sun, with an average surface
+                    temperature of 167&deg; C and orbiting the Sun every 88
+                    days.{" "}
+                  </h6>
+                  <ul>
+                    <li>Radius: 2,439.7 km</li>
+                    <li>Distance from Sun: 58 million km</li>
+                    <li>Composition: Metals and silicates</li>
+                    <li>Moons: None</li>
+                    <li>Day length: 59d</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
