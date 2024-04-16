@@ -82,7 +82,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Mercury</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -106,16 +106,20 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Venus</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
@@ -130,7 +134,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Earth</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -154,7 +158,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>The Moon</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -178,7 +182,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Mars</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -202,7 +206,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Asteroid Belt</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -226,7 +230,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Jupiter</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -250,7 +254,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Saturn</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -274,7 +278,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Uranus</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -298,7 +302,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Neptune</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
@@ -322,7 +326,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Ceres</h2>
                   <h6 className="w-50">
-                    INFO: Closest planet to the Sun, with an average surface
+                    Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
                   </h6>
