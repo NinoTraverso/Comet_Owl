@@ -413,6 +413,7 @@ nav {
   background-size: cover;
   height: 80vh;
 }
+
 #carouselCard {
   width: 400px;
   height: auto;
@@ -421,4 +422,16 @@ nav {
 .carouselImage {
   width: 400px;
   height: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  #carouselCard h1 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carouselImage img {
+    width: 300px;
+  }
 }
