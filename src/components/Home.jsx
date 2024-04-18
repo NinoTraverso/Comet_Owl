@@ -326,9 +326,7 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Ceres</h2>
                   <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+                    Second largest Kuiper belt object after Pluto.{" "}
                   </h6>
                   <ul>
                     <li>Radius: 2,439.7 km</li>
