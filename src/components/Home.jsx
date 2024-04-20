@@ -230,9 +230,8 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Jupiter</h2>
                   <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+                    IT's the largest planet in the Solar System, with over 90
+                    moons and categorized as a gas giant.{" "}
                   </h6>
                   <ul>
                     <li>Radius: 2,439.7 km</li>
