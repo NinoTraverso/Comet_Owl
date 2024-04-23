@@ -349,7 +349,7 @@ function Home() {
                     on it's surface.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
+                    <li>Radius: 1,151 km</li>
                     <li>Distance from Sun: 58 million km</li>
                     <li>Composition: Metals and silicates</li>
                     <li>Moons: None</li>
