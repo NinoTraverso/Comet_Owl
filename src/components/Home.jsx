@@ -320,7 +320,7 @@ function Home() {
                   alt="Ceres"
                 />
                 <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Ceres</h2>
+                  <h2>Eris</h2>
                   <h6 className="w-50">
                     Second largest Kuiper belt object after Pluto.{" "}
                   </h6>
