@@ -303,7 +303,7 @@ function Home() {
                     System.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
+                    <li>Radius: 4,5892 billion km</li>
                     <li>Distance from Sun: 58 million km</li>
                     <li>Composition: Metals and silicates</li>
                     <li>Moons: None</li>
