@@ -69,19 +69,54 @@ function Home() {
       <div id="solarSystemCarousel d-flex justify-content-center align-items-center">
         <div id="carouselExampleFade" className="carousel slide carousel-fade">
           <div className="carousel-inner">
-            <div
-              id="carouselIamgeContainer"
-              className="carousel-item active d-flex flex-column flex-xl-row justify-content-center align-items-center"
-            >
-              <div id="carouselCard">
-                <img
-                  src="./assets/planets/mercury.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Mercury"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Mercury</h2>
-                  <h6 className="w-50">
+            <div className="carousel-item active d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/pluto.jpg"
+                    alt="mercury"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3">Mercury</h1>
+                  <h6 className="py-3 ">
+                    Closest planet to the Sun, with an average surface
+                    temperature of 167&deg; C and orbiting the Sun every 88
+                    days.{" "}
+                  </h6>
+                  <ul>
+                    <li>Radius: 2,439.7 km</li>
+                    <li>Distance from Sun: 58 million km</li>
+                    <li>Composition: Metals and silicates</li>
+                    <li>Moons: None</li>
+                    <li>Day length: 59d</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/pluto.jpg"
+                    alt="mercury"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Mercury</h1>
+                  <h6 className="py-3 ">
                     Closest planet to the Sun, with an average surface
                     temperature of 167&deg; C and orbiting the Sun every 88
                     days.{" "}
@@ -344,36 +379,6 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <h2>Pluto</h2>
                   <h6 className="w-50">
-                    Largest Kuiper belt object, has a distinguished heart shape
-                    on it's surface.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 1,151 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
-                    <li>Moons: None</li>
-                    <li>Day length: 59d</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item d-flex justify-content-center align-content-center mx-5">
-              <div
-                id="cardContainer"
-                className="align-self-center d-flex flex-column flex-md-row mx-5"
-              >
-                <div className="align-self-center">
-                  <img
-                    src="./assets/planets/pluto.jpg"
-                    alt="pluto"
-                    className="newCarouselImage"
-                    style={{ borderRadius: "20px" }}
-                  />
-                </div>
-
-                <div className="d-flex flex-column justify-content-center align-items-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3">Pluto</h1>
-                  <h6 className="py-3 ">
                     Largest Kuiper belt object, has a distinguished heart shape
                     on it's surface.{" "}
                   </h6>
