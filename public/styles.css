@@ -438,3 +438,26 @@ nav {
   height: 400px;
   margin-left: -50px;
 }
+
+@media screen and (max-width: 991px) {
+  .newCarouselImage {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #cardContainer {
+    padding-left: 40px;
+    padding-top: 0px;
+  }
+
+  .newCarouselImage {
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+    margin-top: -50px;
+  }
+}
