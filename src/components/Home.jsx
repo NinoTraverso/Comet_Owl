@@ -69,6 +69,7 @@ function Home() {
       <div id="solarSystemCarousel d-flex justify-content-center align-items-center">
         <div id="carouselExampleFade" className="carousel slide carousel-fade">
           <div className="carousel-inner">
+            {/* ----------------------------------- MERCURY ---------------------------------------- */}
             <div className="carousel-item active d-flex flex-column flex-xl-row justify-content-center align-items-center">
               <div
                 id="cardContainer"
@@ -76,14 +77,14 @@ function Home() {
               >
                 <div className="align-self-center">
                   <img
-                    src="./assets/planets/pluto.jpg"
+                    src="./assets/planets/mercury.jpg"
                     alt="mercury"
                     className="newCarouselImage"
                     style={{ borderRadius: "20px" }}
                   />
                 </div>
 
-                <div className="d-flex flex-column justify-content-center align-items-start mx-5">
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3">Mercury</h1>
                   <h6 className="py-3 ">
                     Closest planet to the Sun, with an average surface
@@ -100,6 +101,8 @@ function Home() {
                 </div>
               </div>
             </div>
+
+            {/* ----------------------------------- VENUS ---------------------------------------- */}
             <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
               <div
                 id="cardContainer"
@@ -107,40 +110,16 @@ function Home() {
               >
                 <div className="align-self-center">
                   <img
-                    src="./assets/planets/pluto.jpg"
-                    alt="mercury"
+                    src="./assets/planets/venus.jpg"
+                    alt="venus"
                     className="newCarouselImage"
                     style={{ borderRadius: "20px" }}
                   />
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Mercury</h1>
+                  <h1 className="ms-0 ms-md-4 py-3 t">Venus</h1>
                   <h6 className="py-3 ">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
-                    <li>Moons: None</li>
-                    <li>Day length: 59d</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/venus.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Venus"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Venus</h2>
-                  <h6 className="w-50">
                     Second planet in our Solar System and has the hottest
                     average surface temperature of 465&deg; C and orbiting the
                     Sun every 225 days.{" "}
@@ -159,235 +138,381 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/earth.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Earth"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Earth</h2>
-                  <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+
+            {/* ----------------------------------- EARTH ---------------------------------------- */}
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/earth.jpg"
+                    alt="earth"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Earth</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/moon.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Moon"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>The Moon</h2>
-                  <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+
+            {/* ----------------------------------- MOON ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/moon.jpg"
+                    alt="moon"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Moon</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/mars.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Mars"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Mars</h2>
-                  <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+
+            {/* ----------------------------------- MARS ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/mars.jpg"
+                    alt="mars"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Mars</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/asteroidBelt.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Asteroid Belt"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Asteroid Belt</h2>
-                  <h6 className="w-50">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
+
+            {/* ----------------------------------- ASTEROID BELT ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/asteroidBelt.jpg"
+                    alt="asteroidBelt"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Asteroid Belt</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/jupiter.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Jupiter"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Jupiter</h2>
-                  <h6 className="w-50">
-                    IT's the largest planet in the Solar System, with over 90
-                    moons and categorized as a gas giant.{" "}
+
+            {/* ----------------------------------- JUPITER ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/jupiter.jpg"
+                    alt="jupiter"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Jupiter</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/saturn.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Saturn"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Saturn</h2>
-                  <h6 className="w-50">
-                    Second largest planet in our Solar Stystem, disticting
-                    itself from the other for its famusly know extended rings,
-                    mainly made of dust and gas.{" "}
+
+            {/* ----------------------------------- SATURN ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/saturn.jpg"
+                    alt="saturn"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Saturn</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/uranus.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Uranus"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Uranus</h2>
-                  <h6 className="w-50">
-                    After Saturn we find this icy giant.{" "}
+
+            {/* ----------------------------------- URANUS ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/uranus.jpg"
+                    alt="uranus"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Uranus</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,871 billion km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/neptune.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Neptune"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Neptune</h2>
-                  <h6 className="w-50">
-                    This is the other icy giant and last planet in our Solar
-                    System.{" "}
+
+            {/* ----------------------------------- NEPTUNE ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/neptune.jpg"
+                    alt="neptune"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Neptune</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 4,5892 billion km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/ceres.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Ceres"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Eris</h2>
-                  <h6 className="w-50">
-                    Second largest Kuiper belt object after Pluto.{" "}
+
+            {/* ----------------------------------- PLUTO ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/pluto.jpg"
+                    alt="pluto"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">PLuto</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard mx-auto">
-                <img
-                  src="./assets/planets/pluto.jpg"
-                  className="carouselImage d-block mx-auto"
-                  alt="Pluto"
-                />
-                <div className="d-flex flex-column justify-content-center align-items-center">
-                  <h2>Pluto</h2>
-                  <h6 className="w-50">
-                    Largest Kuiper belt object, has a distinguished heart shape
-                    on it's surface.{" "}
+
+            {/* ----------------------------------- ERIS ---------------------------------------- */}
+
+            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
+              >
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/ceres.jpg"
+                    alt="eris"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3 t">Eris</h1>
+                  <h6 className="py-3 ">
+                    Second planet in our Solar System and has the hottest
+                    average surface temperature of 465&deg; C and orbiting the
+                    Sun every 225 days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 1,151 km</li>
-                    <li>Distance from Sun: 58 million km</li>
-                    <li>Composition: Metals and silicates</li>
+                    <li>Radius: 6,051.8 km</li>
+                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>
+                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      gases.
+                    </li>
                     <li>Moons: None</li>
-                    <li>Day length: 59d</li>
+                    <li>Day length: 243d</li>
                   </ul>
                 </div>
               </div>
