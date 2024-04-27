@@ -357,18 +357,15 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div id="carouselCard" className="card mx-auto">
-                <img
-                  className="card-img-top carouselImage"
-                  src="./assets/planets/pluto.jpg"
-                  alt="Card  cap"
-                />
-                <div class="card-body">
-                  <p class="card-text text-dark">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+            <div className="carousel-item d-flex justify-content-center align-content-center">
+              <div id="cardContainer" className="align-self-center">
+                <div className="align-self-center">
+                  <img
+                    src="./assets/planets/pluto.jpg"
+                    alt="pluto"
+                    className="newCarouselImage"
+                    style={{ borderRadius: "20px" }}
+                  />
                 </div>
               </div>
             </div>
