@@ -357,10 +357,10 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item d-flex justify-content-center align-content-center">
+            <div className="carousel-item d-flex justify-content-center align-content-center mx-5">
               <div
                 id="cardContainer"
-                className="align-self-center d-flex flex-column flex-md-row"
+                className="align-self-center d-flex flex-column flex-md-row mx-5"
               >
                 <div className="align-self-center">
                   <img
