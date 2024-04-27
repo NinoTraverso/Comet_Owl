@@ -424,30 +424,17 @@ nav {
   height: 400px;
 }
 
-/*
-COLORS:
-
-BLACK: #1f1f1f (31, 31, 31)
-DARK-PURPLE: #363062 (54, 48, 98)
-PURPLE: #4D4C7D (77, 76, 125)
-ORANGE: #F99417 (249, 148, 23)
-WHITE: #F5F5F5 (245, 245, 245)
-GRAY-BLUE: #45717a (69, 113, 122)
-*/
-
 #cardContainer {
   width: 1400px;
   border-radius: 20px;
-  background-color: #45717a;
+  background-color: #161616;
   padding: 40px;
   padding-left: 0px;
+  border: 2px solid #c0c0c0;
 }
 
 .newCarouselImage {
   width: 400px;
   height: 400px;
   margin-left: -50px;
-  -webkit-box-shadow: 10px 10px 14px 3px rgba(0, 73, 107, 0.41);
-  -moz-box-shadow: 10px 10px 14px 3px rgba(0, 73, 107, 0.41);
-  box-shadow: 10px 10px 14px 3px rgba(0, 73, 107, 0.41);
 }

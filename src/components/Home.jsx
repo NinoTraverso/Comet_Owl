@@ -358,7 +358,10 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item d-flex justify-content-center align-content-center">
-              <div id="cardContainer" className="align-self-center">
+              <div
+                id="cardContainer"
+                className="align-self-center d-flex flex-column flex-md-row"
+              >
                 <div className="align-self-center">
                   <img
                     src="./assets/planets/pluto.jpg"
@@ -366,6 +369,21 @@ function Home() {
                     className="newCarouselImage"
                     style={{ borderRadius: "20px" }}
                   />
+                </div>
+
+                <div className="d-flex flex-column justify-content-center align-items-start mx-5">
+                  <h1 className="ms-0 ms-md-4 py-3">Pluto</h1>
+                  <h6 className="py-3 ">
+                    Largest Kuiper belt object, has a distinguished heart shape
+                    on it's surface.{" "}
+                  </h6>
+                  <ul>
+                    <li>Radius: 1,151 km</li>
+                    <li>Distance from Sun: 58 million km</li>
+                    <li>Composition: Metals and silicates</li>
+                    <li>Moons: None</li>
+                    <li>Day length: 59d</li>
+                  </ul>
                 </div>
               </div>
             </div>
