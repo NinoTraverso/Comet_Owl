@@ -233,9 +233,9 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Mars</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    Fourth planet in our Solar System and has an average surface
+                    temperature of -65 C&deg; and orbiting the Sun every 687
+                    days.{" "}
                   </h6>
                   <ul>
                     <li>Radius: 6,051.8 km</li>
