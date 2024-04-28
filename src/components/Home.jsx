@@ -238,7 +238,7 @@ function Home() {
                     days.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
+                    <li>Radius: 3,390 km</li>
                     <li>Distance from Sun: 108.2 million km</li>
                     <li>Composition: Iron core with rocky mantle.</li>
                     <li>
