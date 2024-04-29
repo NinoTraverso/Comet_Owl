@@ -93,7 +93,7 @@ function Home() {
                   </h6>
                   <ul>
                     <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 58 million km</li>
+                    <li>Distance from Sun: 0.4 AU</li>
                     <li>Composition: Metals and silicates</li>
                     <li>Moons: None</li>
                     <li>Day length: 59d</li>
