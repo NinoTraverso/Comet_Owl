@@ -271,12 +271,11 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Asteroid Belt</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    This is the zone between Mars and Jupiter where we can find
+                    asteroids of different sizes, shapes and compositions.
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
+                    <li>Radius: 2.06 AU</li>
                     <li>Distance from Sun: 108.2 million km</li>
                     <li>Composition: Iron core with rocky mantle.</li>
                     <li>
