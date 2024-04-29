@@ -196,20 +196,19 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Moon</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    The only satellite of Earth, and due to its surface
+                    composition it reflects about 5-10% of the Sun's light.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>Radius: 1,737.4 km</li>
+                    <li>Distance from Sun: 1 AU</li>
                     <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
+                      Composition: Oxygen, Silicon, Manesium, Iron, Calcium,
+                      Aluminum, Titanium, Uranium, Potassium, Hydrogen..
                     </li>
+                    <li>Atmosphere: Helium, neon, argon and hydrogen.</li>
                     <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Day length: 29.5d</li>
                   </ul>
                 </div>
               </div>
