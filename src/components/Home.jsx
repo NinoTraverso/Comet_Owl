@@ -242,11 +242,11 @@ function Home() {
                     <li>Distance from Sun: 228 million km &#40;1.52 AU&#41;</li>
                     <li>Composition: Iron, nickel and sulfur.</li>
                     <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                      Atmosphere: 95% Carbon Dioxide, 3% Nitrogen and other
                       gases.
                     </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Moons: 2 &#40;Phobos and Deimos &#41;</li>
+                    <li>Day length: 1d 37min</li>
                   </ul>
                 </div>
               </div>
