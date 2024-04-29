@@ -95,6 +95,7 @@ function Home() {
                     <li>Radius: 2,439.7 km</li>
                     <li>Distance from Sun: 0.4 AU</li>
                     <li>Composition: Metals and silicates</li>
+                    <li>Atmosphere: None</li>
                     <li>Moons: None</li>
                     <li>Day length: 59d</li>
                   </ul>
@@ -126,7 +127,7 @@ function Home() {
                   </h6>
                   <ul>
                     <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
+                    <li>Distance from Sun: 0.72 AU</li>
                     <li>Composition: Iron core with rocky mantle.</li>
                     <li>
                       Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
@@ -157,20 +158,20 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Earth</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    Our home planet, with an average temperature of 15&deg; C
+                    with an orbital period of 365 days, and the only planet
+                    known to host life.
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>Radius: 6,371 km</li>
+                    <li>Distance from Sun: 1 AU</li>
+                    <li>Composition: Iron core and rocky crust. </li>
                     <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
+                      Atmosphere: 78.08% Nitrogen, 20.95% Oxygen, 0.93% Argon,
+                      0.04% other gases.
                     </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Moons: 1</li>
+                    <li>Day length: 24h</li>
                   </ul>
                 </div>
               </div>
