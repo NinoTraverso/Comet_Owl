@@ -240,7 +240,7 @@ function Home() {
                   <ul>
                     <li>Radius: 3,390 km</li>
                     <li>Distance from Sun: 228 million km &#40;1.52 AU&#41;</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>Composition: Iron, nickel and sulfur.</li>
                     <li>
                       Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
                       gases.
