@@ -454,21 +454,23 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Kuiper Belt</h1>
-                  <h6 className="py-3 ">
-                    This is a second band of asteroid, larger in size and mass
-                    to the asteroid belt between Mars and Jupiter. Found after
-                    Neptune, it is host to the declassified planet, now dwarf
-                    planet, Pluto. Other dwarf planets are found here such as
-                    Eris, Haume and Makemake.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 20 AU</li>
-                    <li>Distance from Sun: 30-50 AU</li>
-                    <li>Composition: Large volumes of ices</li>
-                    <li>Atmosphere: N/A</li>
-                    <li>Moons: N/A</li>
-                    <li>Day length: N/A</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      This is a second band of asteroid, larger in size and mass
+                      to the asteroid belt between Mars and Jupiter. Found after
+                      Neptune, it is host to the declassified planet, now dwarf
+                      planet, Pluto. Other dwarf planets are found here such as
+                      Eris, Haume and Makemake.{" "}
+                    </h6>
+                    <div>
+                      <p>Radius: 20 AU</p>
+                      <p>Distance from Sun: 30-50 AU</p>
+                      <p>Composition: Large volumes of ices</p>
+                      <p>Atmosphere: N/A</p>
+                      <p>Moons: N/A</p>
+                      <p>Day length: N/A</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
