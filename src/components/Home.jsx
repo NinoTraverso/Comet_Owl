@@ -453,60 +453,21 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">PLuto</h1>
+                  <h1 className="ms-0 ms-md-4 py-3 t">Kuiper Belt</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    This is a second band of asteroid, larger in size and mass
+                    to the asteroid belt between Mars and Jupiter. Found after
+                    Neptune, it is host to the declassified planet, now dwarf
+                    planet, Pluto. Other dwarf planets are found here such as
+                    Eris, Haume and Makemake.{" "}
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
-                    <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
-                    </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* ----------------------------------- ERIS ---------------------------------------- */}
-
-            <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
-              <div
-                id="cardContainer"
-                className="align-self-center d-flex flex-column flex-md-row mx-5"
-              >
-                <div className="align-self-center">
-                  <img
-                    src="./assets/planets/ceres.jpg"
-                    alt="eris"
-                    className="newCarouselImage"
-                    style={{ borderRadius: "20px" }}
-                  />
-                </div>
-
-                <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Eris</h1>
-                  <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
-                    <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
-                    </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Radius: 20 AU</li>
+                    <li>Distance from Sun: 30-50 AU</li>
+                    <li>Composition: Large volumes of ices</li>
+                    <li>Atmosphere: N/A</li>
+                    <li>Moons: N/A</li>
+                    <li>Day length: N/A</li>
                   </ul>
                 </div>
               </div>
