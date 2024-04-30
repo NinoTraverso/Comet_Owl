@@ -276,14 +276,13 @@ function Home() {
                   </h6>
                   <ul>
                     <li>Radius: 2.06 AU</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>Distance from Sun: 2.5 - 2.8 AU</li>
                     <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
+                      Composition: Rocky and ston, some contain iron and nickel.
                     </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Atmosphere: N/A</li>
+                    <li>Moons: N/A</li>
+                    <li>Day length: N/A</li>
                   </ul>
                 </div>
               </div>
