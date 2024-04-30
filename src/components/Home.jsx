@@ -418,20 +418,19 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Neptune</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    This is the eighth and last planet in the Solar System, with
+                    an average temperature of -214 C&deg; and an orbital period
+                    of 165 Earth years.
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
+                    <li>Radius: 24,622 km</li>
+                    <li>Distance from Sun: 30.1 AU</li>
                     <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
+                      Composition: Rocky core, water, methane and ammonia.
                     </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Atmosphere: Hydrogen, Helium and Methane.</li>
+                    <li>Moons: 16</li>
+                    <li>Day length: 16h 6min</li>
                   </ul>
                 </div>
               </div>
