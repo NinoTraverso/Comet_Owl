@@ -307,20 +307,18 @@ function Home() {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Jupiter</h1>
                   <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
+                    This is the largest planet in the solar system, with four
+                    main moons being Io, Europa, Ganymede and Callisto. Its more
+                    famous feature is its "great red spot", a giant storm 16,000
+                    km wide and an orbit period of 11.86 years.
                   </h6>
                   <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 108.2 million km</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
-                    <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
-                    </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
+                    <li>Radius: 69,911 km</li>
+                    <li>Distance from Sun: 5.2 AU</li>
+                    <li>Composition: Hydrgen &#40;liquid&#41; and Helium</li>
+                    <li>Atmosphere: Hydrogen and Helium.</li>
+                    <li>Moons: 95</li>
+                    <li>Day length: 09h 56min</li>
                   </ul>
                 </div>
               </div>
