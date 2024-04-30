@@ -378,23 +378,25 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Uranus</h1>
-                  <h6 className="py-3 ">
-                    This is the seventh planet in our Solar System and has dark
-                    rings. It has an average temperature of -195 C&deg; and an
-                    orbital period of 84 years.
-                  </h6>
-                  <ul>
-                    <li>Radius: 25,362 km</li>
-                    <li>Distance from Sun: 19 AU</li>
-                    <li>
-                      Composition: Rocky core, water, methane and ammonia.
-                    </li>
-                    <li>
-                      Atmosphere: Hydrogen, Helium, Methane, Water and Ammonia.
-                    </li>
-                    <li>Moons: 28</li>
-                    <li>Day length: 17h 14min</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      This is the seventh planet in our Solar System and has
+                      dark rings. It has an average temperature of -195 C&deg;
+                      and an orbital period of 84 years.
+                    </h6>
+                    <div>
+                      <p>Radius: 25,362 km</p>
+                      <p>Distance from Sun: 19 AU</p>
+                      <p>
+                        Composition: Rocky core, water, methane and ammonia.
+                      </p>
+                      <p>
+                        Atmosphere: Hydrogen, Hepum, Methane, Water and Ammonia.
+                      </p>
+                      <p>Moons: 28</p>
+                      <p>Day length: 17h 14min</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -417,21 +419,23 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Neptune</h1>
-                  <h6 className="py-3 ">
-                    This is the eighth and last planet in the Solar System, with
-                    an average temperature of -214 C&deg; and an orbital period
-                    of 165 Earth years.
-                  </h6>
-                  <ul>
-                    <li>Radius: 24,622 km</li>
-                    <li>Distance from Sun: 30.1 AU</li>
-                    <li>
-                      Composition: Rocky core, water, methane and ammonia.
-                    </li>
-                    <li>Atmosphere: Hydrogen, Helium and Methane.</li>
-                    <li>Moons: 16</li>
-                    <li>Day length: 16h 6min</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      This is the eighth and last planet in the Solar System,
+                      with an average temperature of -214 C&deg; and an orbital
+                      period of 165 Earth years.
+                    </h6>
+                    <div>
+                      <p>Radius: 24,622 km</p>
+                      <p>Distance from Sun: 30.1 AU</p>
+                      <p>
+                        Composition: Rocky core, water, methane and ammonia.
+                      </p>
+                      <p>Atmosphere: Hydrogen, Hepum and Methane.</p>
+                      <p>Moons: 16</p>
+                      <p>Day length: 16h 6min</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
