@@ -86,19 +86,21 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3">Mercury</h1>
-                  <h6 className="py-3 ">
-                    Closest planet to the Sun, with an average surface
-                    temperature of 167&deg; C and orbiting the Sun every 88
-                    days.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 2,439.7 km</li>
-                    <li>Distance from Sun: 0.4 AU</li>
-                    <li>Composition: Metals and silicates</li>
-                    <li>Atmosphere: None</li>
-                    <li>Moons: None</li>
-                    <li>Day length: 59d</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      Closest planet to the Sun, with an average surface
+                      temperature of 167&deg; C and orbiting the Sun every 88
+                      days.{" "}
+                    </h6>
+                    <div>
+                      <p>Radius: 2,439.7 km</p>
+                      <p>Distance from Sun: 0.4 AU</p>
+                      <p>Composition: Metals and silicates</p>
+                      <p>Atmosphere: None</p>
+                      <p>Moons: None</p>
+                      <p>Day length: 59d</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -120,22 +122,24 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Venus</h1>
-                  <h6 className="py-3 ">
-                    Second planet in our Solar System and has the hottest
-                    average surface temperature of 465&deg; C and orbiting the
-                    Sun every 225 days.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 6,051.8 km</li>
-                    <li>Distance from Sun: 0.72 AU</li>
-                    <li>Composition: Iron core with rocky mantle.</li>
-                    <li>
-                      Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
-                    </li>
-                    <li>Moons: None</li>
-                    <li>Day length: 243d</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      Second planet in our Solar System and has the hottest
+                      average surface temperature of 465&deg; C and orbiting the
+                      Sun every 225 days.{" "}
+                    </h6>
+                    <div>
+                      <p>Radius: 6,051.8 km</p>
+                      <p>Distance from Sun: 0.72 AU</p>
+                      <p>Composition: Iron core with rocky mantle.</p>
+                      <p>
+                        Atmosphere: 96% Carbon Dioxide, 3% Nitrogen and other
+                        gases.
+                      </p>
+                      <p>Moons: None</p>
+                      <p>Day length: 243d</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -157,22 +161,24 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Earth</h1>
-                  <h6 className="py-3 ">
-                    Our home planet, with an average temperature of 15&deg; C
-                    with an orbital period of 365 days, and the only planet
-                    known to host life.
-                  </h6>
-                  <ul>
-                    <li>Radius: 6,371 km</li>
-                    <li>Distance from Sun: 1 AU</li>
-                    <li>Composition: Iron core and rocky crust. </li>
-                    <li>
-                      Atmosphere: 78.08% Nitrogen, 20.95% Oxygen, 0.93% Argon,
-                      0.04% other gases.
-                    </li>
-                    <li>Moons: 1</li>
-                    <li>Day length: 24h</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      Our home planet, with an average temperature of 15&deg; C
+                      with an orbital period of 365 days, and the only planet
+                      known to host life.
+                    </h6>
+                    <div>
+                      <p>Radius: 6,371 km</p>
+                      <p>Distance from Sun: 1 AU</p>
+                      <p>Composition: Iron core and rocky crust. </p>
+                      <p>
+                        Atmosphere: 78.08% Nitrogen, 20.95% Oxygen, 0.93% Argon,
+                        0.04% other gases.
+                      </p>
+                      <p>Moons: 1</p>
+                      <p>Day length: 24h</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -195,21 +201,23 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Moon</h1>
-                  <h6 className="py-3 ">
-                    The only satellite of Earth, and due to its surface
-                    composition it reflects about 5-10% of the Sun's light.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 1,737.4 km</li>
-                    <li>Distance from Sun: 1 AU</li>
-                    <li>
-                      Composition: Oxygen, Silicon, Manesium, Iron, Calcium,
-                      Aluminum, Titanium, Uranium, Potassium, Hydrogen..
-                    </li>
-                    <li>Atmosphere: Helium, neon, argon and hydrogen.</li>
-                    <li>Moons: None</li>
-                    <li>Day length: 29.5d</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      The only satellite of Earth, and due to its surface
+                      composition it reflects about 5-10% of the Sun's light.{" "}
+                    </h6>
+                    <div>
+                      <p>Radius: 1,737.4 km</p>
+                      <p>Distance from Sun: 1 AU</p>
+                      <p>
+                        Composition: Oxygen, Sipcon, Manesium, Iron, Calcium,
+                        Aluminum, Titanium, Uranium, Potassium, Hydrogen..
+                      </p>
+                      <p>Atmosphere: Hepum, neon, argon and hydrogen.</p>
+                      <p>Moons: None</p>
+                      <p>Day length: 29.5d</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -232,22 +240,24 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Mars</h1>
-                  <h6 className="py-3 ">
-                    Fourth planet in our Solar System and has an average surface
-                    temperature of -65 C&deg; and orbiting the Sun every 687
-                    days.{" "}
-                  </h6>
-                  <ul>
-                    <li>Radius: 3,390 km</li>
-                    <li>Distance from Sun: 1.52 AU&#41;</li>
-                    <li>Composition: Iron, nickel and sulfur.</li>
-                    <li>
-                      Atmosphere: 95% Carbon Dioxide, 3% Nitrogen and other
-                      gases.
-                    </li>
-                    <li>Moons: 2 &#40;Phobos and Deimos &#41;</li>
-                    <li>Day length: 1d 37min</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      Fourth planet in our Solar System and has an average
+                      surface temperature of -65 C&deg; and orbiting the Sun
+                      every 687 days.{" "}
+                    </h6>
+                    <div>
+                      <p>Radius: 3,390 km</p>
+                      <p>Distance from Sun: 1.52 AU&#41;</p>
+                      <p>Composition: Iron, nickel and sulfur.</p>
+                      <p>
+                        Atmosphere: 95% Carbon Dioxide, 3% Nitrogen and other
+                        gases.
+                      </p>
+                      <p>Moons: 2 &#40;Phobos and Deimos &#41;</p>
+                      <p>Day length: 1d 37min</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -270,20 +280,24 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Asteroid Belt</h1>
-                  <h6 className="py-3 ">
-                    This is the zone between Mars and Jupiter where we can find
-                    asteroids of different sizes, shapes and compositions.
-                  </h6>
-                  <ul>
-                    <li>Radius: 2.06 AU</li>
-                    <li>Distance from Sun: 2.5 - 2.8 AU</li>
-                    <li>
-                      Composition: Rocky and ston, some contain iron and nickel.
-                    </li>
-                    <li>Atmosphere: N/A</li>
-                    <li>Moons: N/A</li>
-                    <li>Day length: N/A</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3">
+                      This is the zone between Mars and Jupiter where we can
+                      find asteroids of different sizes, shapes and
+                      compositions.
+                    </h6>
+                    <div>
+                      <p>Radius: 2.06 AU</p>
+                      <p>Distance from Sun: 2.5 - 2.8 AU</p>
+                      <p>
+                        Composition: Rocky and ston, some contain iron and
+                        nickel.
+                      </p>
+                      <p>Atmosphere: N/A</p>
+                      <p>Moons: N/A</p>
+                      <p>Day length: N/A</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -306,20 +320,22 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Jupiter</h1>
-                  <h6 className="py-3 ">
-                    This is the largest planet in the solar system, with four
-                    main moons being Io, Europa, Ganymede and Callisto. Its more
-                    famous feature is its "great red spot", a giant storm 16,000
-                    km wide and an orbit period of 11.86 years.
-                  </h6>
-                  <ul>
-                    <li>Radius: 69,911 km</li>
-                    <li>Distance from Sun: 5.2 AU</li>
-                    <li>Composition: Hydrgen &#40;liquid&#41; and Helium</li>
-                    <li>Atmosphere: Hydrogen and Helium.</li>
-                    <li>Moons: 95</li>
-                    <li>Day length: 09h 56min</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      This is the largest planet in the solar system, with four
+                      main moons being Io, Europa, Ganymede and Callisto. Its
+                      more famous feature is its "great red spot", a giant storm
+                      16,000 km wide and an orbit period of 11.86 years.
+                    </h6>
+                    <div>
+                      <p>Radius: 69,911 km</p>
+                      <p>Distance from Sun: 5.2 AU</p>
+                      <p>Composition: Hydrgen &#40;pquid&#41; and Hepum</p>
+                      <p>Atmosphere: Hydrogen and Hepum.</p>
+                      <p>Moons: 95</p>
+                      <p>Day length: 09h 56min</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -342,20 +358,22 @@ function Home() {
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
                   <h1 className="ms-0 ms-md-4 py-3 t">Saturn</h1>
-                  <h6 className="py-3 ">
-                    Second largest planet in the Solar System, famously known
-                    for its large rings, made of dust, ice and rocks. Among its
-                    many moons, the two most famous are Titan and Enceladus. It
-                    has an orbital period of 29.4 years.
-                  </h6>
-                  <ul>
-                    <li>Radius: 58,232 km</li>
-                    <li>Distance from Sun: 9 AU</li>
-                    <li>Composition: Hydrogen, Helium, Iron, Nickel, rock.</li>
-                    <li>Atmosphere: Hydrogen and Helium.</li>
-                    <li>Moons: 146</li>
-                    <li>Day length: 10h 34min</li>
-                  </ul>
+                  <span className="inTextCard">
+                    <h6 className="py-3 ">
+                      Second largest planet in the Solar System, famously known
+                      for its large rings, made of dust, ice and rocks. Among
+                      its many moons, the two most famous are Titan and
+                      Enceladus. It has an orbital period of 29.4 years.
+                    </h6>
+                    <div>
+                      <p>Radius: 58,232 km</p>
+                      <p>Distance from Sun: 9 AU</p>
+                      <p>Composition: Hydrogen, Hepum, Iron, Nickel, rock.</p>
+                      <p>Atmosphere: Hydrogen and Hepum.</p>
+                      <p>Moons: 146</p>
+                      <p>Day length: 10h 34min</p>
+                    </div>
+                  </span>
                 </div>
               </div>
             </div>
@@ -440,7 +458,7 @@ function Home() {
               </div>
             </div>
 
-            {/* ----------------------------------- PLUTO ---------------------------------------- */}
+            {/* ----------------------------------- KUIPER BELT ---------------------------------------- */}
 
             <div className="carousel-item d-flex flex-column flex-xl-row justify-content-center align-items-center">
               <div
