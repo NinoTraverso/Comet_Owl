@@ -530,3 +530,29 @@ nav {
   right: 0;
   text-align: center;
 }
+
+/*--------------------------- FOOTER SECTION ---------------------- */
+
+/*
+COLORS:
+
+BLACK: #1f1f1f (31, 31, 31)
+DARK-PURPLE: #363062 (54, 48, 98)
+PURPLE: #4D4C7D (77, 76, 125)
+ORANGE: #F99417 (249, 148, 23)
+WHITE: #F5F5F5 (245, 245, 245)
+GRAY-BLUE: #45717a (69, 113, 122)
+*/
+
+footer {
+  background-color: #45717a;
+}
+#footerLogo {
+  width: 400px;
+  height: auto;
+}
+
+#footerLogo img {
+  width: 400px;
+  height: auto;
+}
