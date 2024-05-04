@@ -62,6 +62,22 @@ const articles = [
     references: "Test",
     author: "Test",
   },
+
+  {
+    id: 2,
+    title: "Test",
+    frontImage: "Test",
+    introduction: "Test",
+    background: "Test",
+    main: "Test",
+    illustrationOne: "Test",
+    illustrationTwo: "Test",
+    discussion: "Test",
+    conlcusionImage: "Test",
+    conclusion: "Test",
+    references: "Test",
+    author: "Test",
+  },
 ];
 
 export default articles;

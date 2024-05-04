@@ -2,7 +2,8 @@ import React from "react";
 import Analytics from "./Analytics";
 import SpeedInsights from "./SpeedInsights";
 
-import ArticleCard from "../ArticleCard";
+import ArticleCard from "./ArticleCard";
+import articles from "../articles";
 
 function createArticleCard(article) {
   return (
@@ -12,10 +13,17 @@ function createArticleCard(article) {
     >
       <ArticleCard
         id={article.id}
-        img={article.img}
-        name={article.name}
-        details={article.description}
-        projectLink={article.projectLink}
+        title={article.title}
+        frontImage={article.frontImage}
+        introduction={article.introduction}
+        main={article.main}
+        illustrationOne={article.illustrationOne}
+        illustrationTwo={article.illustrationTwo}
+        discussion={article.discussion}
+        conlcusionImage={article.conlcusionImage}
+        conclusion={article.conclusion}
+        references={article.references}
+        author={article.author}
       />
     </div>
   );
@@ -31,27 +39,25 @@ function Articles() {
       <h1>ARTICLES PAGE</h1>
       <div>
         <h1
-          id="projects"
+          id="articles"
           className="sectionTitle projectsTitleXl d-none d-xl-block mt-5"
         >
           PROJECTS
         </h1>
         <h1
-          id="projects"
+          id="articles"
           className="sectionTitleMedium projectsTitleMd d-none d-md-block d-xl-none text-center mt-5"
         >
           PROJECTS
         </h1>
         <h1
-          id="projects"
+          id="articles"
           className="sectionTitleSmall projectsTitleSm d-block d-md-none text-center mt-5"
         >
           PROJECTS
         </h1>
 
-        <div className="row mb-5 mx-1">
-          {ArticleCard.map(createArticleCard)}
-        </div>
+        <div className="row mb-5 mx-1">{articles.map(createArticleCard)}</div>
       </div>
     </div>
   );
