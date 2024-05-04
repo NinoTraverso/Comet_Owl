@@ -14,8 +14,12 @@ function Footer() {
 
           <h4 className="mx-3">Copyright &#169; {currentYear} - CometOwl</h4>
         </div>
-        <div>
-          <h1>Contact form</h1>
+        <div className="d-flex flex-column text-center align-items-center">
+          <h3>Contact form</h3>
+          <input type="text" placeholder="Name" className="my-1" />
+          <input type="email" placeholder="Email" className="my-1" />
+          <input type="text" placeholder="Message" className="my-1" />
+          <button className="text-dark bg-tertiary">Submit</button>
         </div>
       </div>
     </footer>
