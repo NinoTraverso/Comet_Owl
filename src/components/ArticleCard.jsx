@@ -6,21 +6,23 @@ function ArticleCard(props) {
   return (
     <div id="articleCard" className={`${className}`}>
       <div className="d-flex flex-column justify-content-between">
-        <h3 className="name articleName text-center">{props.title}</h3>
-        <h5 className="details articleDetails">{props.frontImage}</h5>
-        <h3 className="name articleName text-center">{props.introduction}</h3>
+        <h1 className="name articleName text-center">{props.title}</h1>
+        <div id="frontImage">
+          <img src={props.frontImage} alt={props.title} />
+        </div>
+        <h5 className="name articleName text-center">{props.introduction}</h5>
         <h5 className="details articleDetails">{props.background}</h5>
-        <h3 className="name articleName text-center">{props.main}</h3>
+        <h5 className="name articleName text-center">{props.main}</h5>
         <h5 className="details articleDetails">{props.illustrationOne}</h5>
-        <h3 className="name articleName text-center">
+        <h5 className="name articleName text-center">
           {props.illustrationTwo}
-        </h3>
+        </h5>
         <h5 className="details articleDetails">{props.discussion}</h5>
-        <h3 className="name articleName text-center">
+        <h5 className="name articleName text-center">
           {props.conlcusionImage}
-        </h3>
+        </h5>
         <h5 className="details articleDetails">{props.conclusion}</h5>
-        <h3 className="name articleName text-center">{props.references}</h3>
+        <h5 className="name articleName text-center">{props.references}</h5>
         <h5 className="details articleDetails">{props.author}</h5>
       </div>
     </div>

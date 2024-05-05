@@ -531,6 +531,18 @@ nav {
   text-align: center;
 }
 
+/*--------------------------- ARTICLE PAGE ---------------------- */
+
+#frontImage {
+  width: 400px;
+  height: auto;
+}
+
+#frontImage img {
+  width: 400px;
+  height: auto;
+}
+
 /*--------------------------- FOOTER SECTION ---------------------- */
 
 /*

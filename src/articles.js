@@ -68,7 +68,7 @@ const articles = [
   {
     id: 2,
     title: "The importance of Astronomy",
-    frontImage: "./theImportanceOfAstronomy.jpg",
+    frontImage: "./assets/articleImages/theImportanceOfAstronomy.jpg",
     introduction:
       "Astronomy has been exponentially developing over the course of time and has been a tool used for our survival since the rise of mankind. It was used for predicting events on Earth, navigate the globe, anticipate astronomical events, and much more.",
     background: "",
