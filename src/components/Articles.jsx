@@ -42,19 +42,19 @@ function Articles() {
           id="articles"
           className="sectionTitle projectsTitleXl d-none d-xl-block mt-5"
         >
-          PROJECTS
+          ARTICLES
         </h1>
         <h1
           id="articles"
           className="sectionTitleMedium projectsTitleMd d-none d-md-block d-xl-none text-center mt-5"
         >
-          PROJECTS
+          ARTICLES
         </h1>
         <h1
           id="articles"
           className="sectionTitleSmall projectsTitleSm d-block d-md-none text-center mt-5"
         >
-          PROJECTS
+          ARTICLES
         </h1>
 
         <div className="row mb-5 mx-1">{articles.map(createArticleCard)}</div>
