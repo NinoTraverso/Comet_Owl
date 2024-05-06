@@ -36,24 +36,17 @@ function Articles() {
       <SpeedInsights />
       <div className="nav-separator"></div>
 
-      <h1>ARTICLES PAGE</h1>
       <div>
-        <h1
-          id="articles"
-          className="sectionTitle projectsTitleXl d-none d-xl-block mt-5"
-        >
+        <h1 id="articles" className="d-none d-xl-block mt-5">
           ARTICLES
         </h1>
         <h1
           id="articles"
-          className="sectionTitleMedium projectsTitleMd d-none d-md-block d-xl-none text-center mt-5"
+          className="d-none d-md-block d-xl-none text-center mt-5"
         >
           ARTICLES
         </h1>
-        <h1
-          id="articles"
-          className="sectionTitleSmall projectsTitleSm d-block d-md-none text-center mt-5"
-        >
+        <h1 id="articles" className="d-block d-md-none text-center mt-5">
           ARTICLES
         </h1>
 
