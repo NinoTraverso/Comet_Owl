@@ -5,7 +5,7 @@ function ArticleCard(props) {
 
   return (
     <div id="articleCard" className={`${className}`}>
-      <div className="d-flex flex-column justify-content-between">
+      <div className="d-flex flex-column justify-content-center aling-items-center">
         <h1 className="name articleName text-center">{props.title}</h1>
         <div id="frontImage">
           <img src={props.frontImage} alt={props.title} />
