@@ -197,63 +197,72 @@ const glossary = [
   },
   {
     id: 35,
-    term: "",
-    description: "",
+    term: "GMC (Giant Molecular Cloud)",
+    description:
+      "These are regions in the galaxy, usually with mass of 10^5 or more, where gas and dust accumulates and, although these are cold, they are also the birth places of stars.",
   },
   {
     id: 36,
-    term: "",
-    description: "",
+    term: "Half-Life",
+    description:
+      "It's the time it takes for half of radioactive isotope to decay. E.g., Carbon-14 has a half-life of 5,730 years, meaning that for 1.0 kg of Carbon-14 it will take 5,730 years to decay to 0.5 kg.",
   },
   {
     id: 37,
-    term: "",
-    description: "",
+    term: "Hertzsprung-Russell diagram",
+    description:
+      "This is a diagram showing the relationship between a star's luminosity and temperature. The stars can be grouped into four categories: White Dwarfs; Main Sequence (where the Sun is located); Giants; Super Giants. Star are also categorized by 'Spectral Types': O, B, A, F, G, K, M.",
   },
   {
     id: 38,
-    term: "",
-    description: "",
+    term: "Hubble Constant",
+    description:
+      "This simply determines the rate at which the Universe is expanding. In order to find the Hubble Constant we simply use the formula [v = H_0 d ] where 'v' is the recessional velocity of a galaxy, and 'd' is its distance from us. Once estimated at 500 km/s/Mpc, today the Hubble constant holds a value of 70 km/s/Mpc.",
   },
   {
     id: 39,
-    term: "",
-    description: "",
+    term: "Hubble Telescope",
+    description:
+      "Space-based telescope that has imaged different sky objects, from our Solar System to far away galaxies with incredible detail. It was launched in 1990 and to this day is still in operation.",
   },
   {
     id: 40,
-    term: "",
-    description: "",
+    term: "IAU",
+    description: "International Astronomical Union.",
   },
   {
     id: 41,
-    term: "",
-    description: "",
+    term: "Ikeya-Seki Comet",
+    description:
+      "	This was a bright comet discovered in 1965 which approached very close to Sun, which reached a perihelion distance of 0.008 AU and a magnitude of ~ (-10), making it visible to the naked eye even during daylight!",
   },
   {
     id: 42,
-    term: "",
-    description: "",
+    term: "Intereferometer",
+    description:
+      "Used in many science fields, it is used to combine two beams of light to create an interference. An important example is LIGO (The Laser Interferometer Gravitational-Wave Observatory) which has recorded proof of gravitational waves, caused by two black holes that merged into one, creating gravitational waves in the process.",
   },
   {
     id: 43,
-    term: "",
-    description: "",
+    term: "Interstellar Medium",
+    description: "	The material 'filling' the gaps between stars in a galaxy.",
   },
   {
     id: 44,
-    term: "",
-    description: "",
+    term: "ISS",
+    description: "The International Space Station.",
   },
   {
     id: 45,
-    term: "",
-    description: "",
+    term: "Jeans Instability",
+    description:
+      "It is the instability withing a gas and dust cloud, which causes it to condense and collapse.",
   },
   {
     id: 46,
-    term: "",
-    description: "",
+    term: "Jovian Satellites",
+    description:
+      "They are the total moons orbiting Jupiter, the fifth planet of our Solar System. Today, these have been counted up to 146 in total.",
   },
   {
     id: 47,
