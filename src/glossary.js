@@ -266,8 +266,382 @@ const glossary = [
   },
   {
     id: 47,
-    term: "",
-    description: "",
+    term: "JPL",
+    description: "Jet Propulsion Laboratory",
+  },
+  {
+    id: 48,
+    term: "Juno",
+    description:
+      "Space probe operated by the JPL, it was launched in 2011 and reached Jupiter in 2016 and is now in orbit studying its gravitational and magnetic field, as well study its clouds and composition.",
+  },
+  {
+    id: 49,
+    term: "JWST",
+    description:
+      "James Webb Space Telescope, launched in December 2023 and reached the Sun–Earth L2 Lagrange point in January 2023. The mission was a success and the telescope is currently fully operational.",
+  },
+  {
+    id: 50,
+    term: "Keck Telescopes",
+    description:
+      "Observatory consisting of two twin optical and infrared telescopes, located at the summit of mount Mauna Kea, Hawaii.",
+  },
+  {
+    id: 51,
+    term: "Kepler's Laws",
+    description:
+      "FIRST LAW: The path of the planets around the Sun is an ellipse, with the center of the sun being located at one focus. | SECOND LAW: An imaginary line drawn from the center of the Sun to the center of the planet will sweep out equal areas in equal intervals of time. | THIRD LAW: The ratio of the squares of the periods of any two planets is equal to the ratio of the cubes of their average distances from the sun. [ P^3 = a^3 ] where 'P' is the period the planet's orbit and 'a' is the semi-major axis of the orbit.",
+  },
+  {
+    id: 52,
+    term: "Kinetic Energy",
+    description: "This is the energy an object holds while in motion.",
+  },
+  {
+    id: 53,
+    term: "Kirkwood gaps",
+    description:
+      "Gaps found in the main asteroid belt (between Mars and Jupiter) cause by Jupiter's gravity, causing dips in the distribution of the asteroids' semi-major axes.",
+  },
+  {
+    id: 54,
+    term: "Kuiper Belt",
+    description:
+      "	This is the Solar System's second belt, outside the orbit or Neptune, when we find find icy-rocky bodies and dwarf-planets such as Pluto (with a diameter of ~ 2,400 km) and Eris (with a diameter of ~ 2,300 km).",
+  },
+  {
+    id: 55,
+    term: "Lagrangian Points",
+    description:
+      "These are points in space, between two large object, where small bodies can maintain a stable orbit indefinitely.",
+  },
+  {
+    id: 56,
+    term: "Light Curve",
+    description:
+      "	A graph showing the fluctuating brightness of a star over time.",
+  },
+  {
+    id: 57,
+    term: "Light Pollution",
+    description:
+      "	The effect of cities and towns to the night sky, causing its visibility to decrease. Light pollution can also be cause by low-orbit satellites which can reflect the sunlight and affect the sky night appearance.",
+  },
+  {
+    id: 58,
+    term: "LMG",
+    description:
+      "Large Magellanic Cloud, could be considered one of the two 'satellites' of our Milky Way, which along the Small Magellanic Cloud. These orbit around the Milky Way, as the Moon orbits the Sun.",
+  },
+  {
+    id: 59,
+    term: "LMXB",
+    description:
+      "A low-mass X-ray binary composed of a neutron star orbiting around another star accreting its matter.",
+  },
+  {
+    id: 60,
+    term: "Luminosity",
+    description:
+      "This is a measure of the total amount of energy, generally stars, each second, measured in watts.",
+  },
+  {
+    id: 61,
+    term: "Magnitude",
+    description:
+      "It's a way to measure the brightness of a star or celestial object. The lower the number, the brighter it is, and vice-versa. The apparent magnitude (m) represents the apparent brightness of an object, while the absolute magnitude (M) represent the actual brightness of the object.",
+  },
+  {
+    id: 62,
+    term: "MBR",
+    description:
+      "Microwave Background Radiation is the 'leftover' radiation from the Big Bang, discovered in 1965 by Arno Penzias and Robert Wilson.",
+  },
+  {
+    id: 63,
+    term: "Messier Objects",
+    description:
+      "A set of cataloged deep sky by the French astronomer Charles Messier. He cataloged 110 objects - galaxies, nebulae and star clusters. The catalog was created in the early 1770s, later completed in the 1780s.",
+  },
+  {
+    id: 64,
+    term: "Meteor",
+    description:
+      "A rocky body from space travelling through a planet's atmosphere; here it burns through the atmosphere, emitting light in the process giving them the name of 'shooting stars'.",
+  },
+  {
+    id: 65,
+    term: "Meteorite",
+    description:
+      "The remnant of a rocky body from space after it collided into a planet's surface.",
+  },
+  {
+    id: 66,
+    term: "Natural Satellite - Moon",
+    description:
+      "A planet's natural satellite (Moon) is a body orbiting a planet. The main difference between a planet and a moon is that planets orbit a star, while a moon orbits a planet.",
+  },
+  {
+    id: 67,
+    term: "Nebula",
+    description:
+      "	A nebula is a point in space where containing large amounts of gas and dust. These,depending on their category, can be the birth-place of new stars or could represent the remnants of dying or exploded stars. Nebula can be put into five main categories: Planetary Nebulae; Emission Nebulae; Supernova remnant; Reflection Nebulae and Dark Nebulae.",
+  },
+  {
+    id: 68,
+    term: "NEO",
+    description:
+      "Near Earth Object, are asteroids and comet orbiting in the 1 AU range, which is the mean distance between the Sun and the Earth. There are about ~ 30,000 NEOs, but only ~ 2,000 are potentially hazardous to Earth.",
+  },
+  {
+    id: 69,
+    term: "Neutron Star",
+    description:
+      "These are super compacted cores of giant stars, which crushing the proton and electrons into protons. Additionally, these bodies have some of the strongest magnetic fields in the Universe.",
+  },
+  {
+    id: 70,
+    term: "NGC",
+    description:
+      "New General Catalogue, a catalog of deep sky objects (including Messier Objects).",
+  },
+  {
+    id: 71,
+    term: "Nova",
+    description:
+      "These are less powerful explosions, compared to supernovae, of stars. These explosions increase the star's brightness to then return to normal.",
+  },
+  {
+    id: 72,
+    term: "Olympus Mons",
+    description:
+      "Located on Mars, this is the tallest volcano in the entire Solar System, with a height of ~ 22 km.",
+  },
+  {
+    id: 73,
+    term: "Oort Cloud",
+    description:
+      "Lying beyond the Kuiper Belt, it is a spherical layer of cosmic rays, dust, gas and small bodies.",
+  },
+  {
+    id: 74,
+    term: "Open Cluster",
+    description:
+      "A collection of generally young stars found in plane of the Milky Way.",
+  },
+  {
+    id: 75,
+    term: "Optical Astronomy",
+    description:
+      "Branch of Astronomy that studies celestial objects in the visible-light.",
+  },
+  {
+    id: 76,
+    term: "Orbit",
+    description: "The route a body take around another, generally elliptical.",
+  },
+  {
+    id: 77,
+    term: "Parallax",
+    description:
+      "The apparent change of an object based on the observer's position.",
+  },
+  {
+    id: 78,
+    term: "Parsec",
+    description:
+      "Astronomical unit of measure of distance, ~ 3.26 light-years.",
+  },
+  {
+    id: 79,
+    term: "Perihelion",
+    description: "The closest point in an object's orbit from the Sun.",
+  },
+  {
+    id: 80,
+    term: "Photometry",
+    description:
+      "	Astronomical process in which a bright object to measure its brightness.",
+  },
+  {
+    id: 81,
+    term: "Planet",
+    description:
+      "A celestial, spheroidal body with a substantial size which meets the following three criteria adopted by the IAU (International Astronomical Union): 1) It must orbit a star; 2) It must be big enough to have enough gravity to force itself into a spherical shape; 3) It needs to be big enough that its gravity cleared any other objects of similar size near its orbit around the star. Planets can be put into four main categories: Terrestrial, Gas-Giant, Super-Earth and Neptune-Like.",
+  },
+  {
+    id: 82,
+    term: "Quadrantids",
+    description: "An annual meteor shower with peak in January 3.",
+  },
+  {
+    id: 83,
+    term: "Quasar",
+    description:
+      "Also known as AGN (Active Galactic Nucleus), these are highly active galaxies with massive black hole at their center releasing giant jets of gas and large amounts of energy in the electromagnetic spectrum (such as X-rays and Gamma Rays) ejected on two sides.",
+  },
+  {
+    id: 84,
+    term: "RA (Right Ascension)",
+    description:
+      "Part of the celestial coordinate system, corresponding to the celestial sphere's longitude,and is measure in hh:mm:ss (hours, minutes, seconds).",
+  },
+  {
+    id: 85,
+    term: "Radio Astronomy",
+    description:
+      "A field of astronomy that studies celestial bodies in the radio frequencies.",
+  },
+  {
+    id: 86,
+    term: "Radiometric Dating",
+    description:
+      "Technique used to measure the date of an object, for example a meteorite, by measuring the amount of radioactive material within it (that was incorporated when it formed) and, knowing the isotopes half-life, establish its age.",
+  },
+  {
+    id: 87,
+    term: "Schwarzschild Radius",
+    description:
+      "For a non-rotating black hole, this is the radius of the black hole's event horizon - the point",
+  },
+  {
+    id: 88,
+    term: "Semimajor Axis",
+    description:
+      "For an ellipse, this is half the diameter of the longest diameter of an ellipse.",
+  },
+  {
+    id: 89,
+    term: "Singularity",
+    description:
+      "This is the point inside the black hole where the mass and gravity become infinite, and nothing can escape it.",
+  },
+  {
+    id: 90,
+    term: "Star",
+    description:
+      "A gaseous body emitting light and energy through nuclear reactions in its core.",
+  },
+  {
+    id: 91,
+    term: "Sun",
+    description:
+      "It is the star of our Solar System, a G-Type Main Sequence star formed ~4.6 billion years ago. These type of stars run for about 10 billion years, meaning the Sun is half through its life cycle. It will eventually become a red giant, increasing in size, swallowing most of the rocky planets (including Earth) and then will eventually turn into a white dwarf.",
+  },
+  {
+    id: 92,
+    term: "T Tauri Stars",
+    description:
+      "These are very young variable stars with irregular magnitude variations producing strong X-Rays.",
+  },
+  {
+    id: 93,
+    term: "Telescope",
+    description:
+      "	Tools that are used to observe far-away objects such as moons, stars, nebulae, galaxies, clusters...there are three main types of telescopes: Refractor, Reflector and Catadioptric Telescopes (a.k.k as Schmidt-Cassegrain telescopes).",
+  },
+  {
+    id: 94,
+    term: "Telescope",
+    description:
+      "Tools that are used to observe far-away objects such as moons, stars, nebulae, galaxies, clusters...there are three main types of telescopes: Refractor, Reflector and Catadioptric Telescopes (a.k.k as Schmidt-Cassegrain telescopes).",
+  },
+  {
+    id: 95,
+    term: "Terminator",
+    description:
+      "This is the 'line' at which a body has the division between the light-side and the dark-side of a planet or moon.",
+  },
+  {
+    id: 96,
+    term: "Tidal Heating",
+    description:
+      "It is the process in which a body is gravitationally affected by a parent body to the point that it gets deformed, causing its interior to heat up.",
+  },
+  {
+    id: 97,
+    term: "Transit",
+    description:
+      "Used to define the passage of a body in front of another relative to the observer - we witness this during solar eclipse as the Moon transits in front of the Sun. Another important example are exoplanets - some exoplanet were only discovered due to their transit in front (relative to us) of their parent star causing the star's brightness to slightly dip.",
+  },
+  {
+    id: 98,
+    term: "Ultraviolet Radiation",
+    description:
+      "With wavelength ranging between 100 nm and 400 nm, are energetic electromagnetic waves which can have damaging effect to the skin, eyes and even DNA.",
+  },
+  {
+    id: 99,
+    term: "Universe",
+    description:
+      "The Universe is everything that exists - the Earth, the Sun, star clusters, galaxies, black holes... it encapsulate all the energy and matter which in the space-time.",
+  },
+  {
+    id: 100,
+    term: "Uranus' Rings",
+    description:
+      "Like Saturn, Uranus has a set of rings which are mainly composed of ice and rocks - these are quite dark, so unlike Saturn these rings are not very visible.",
+  },
+  {
+    id: 101,
+    term: "Ursids",
+    description:
+      "These are a family of meteors visible annually, with peaks on December 22-23.",
+  },
+  {
+    id: 102,
+    term: "Variable Star",
+    description:
+      "It is a star that changes its apparent magnitude (m) over time - in simple words, it's a star that changes brightness over time.",
+  },
+  {
+    id: 103,
+    term: "Volcanism",
+    description:
+      "	Volcanism is the eruption of material from within the ground of a body. Volcanism is not only found on Earth but there is evidence for it on terrestrial planets, the Moon and Jupiter's moon Io. Today, active volcanic activity is only found here on Earth and Io.",
+  },
+  {
+    id: 104,
+    term: "Wavelength",
+    description:
+      "Represented by the letter λ, it is the distance between two successive wave peaks - in simple terms, how long a wave is. The longer the wavelength, the lower the frequency and the less energy it carries. The shorter the wavelength, the higher the frequency and more energy it carries.",
+  },
+  {
+    id: 105,
+    term: "White Dwarf",
+    description:
+      "This is the remnant of a dying star, the core of the star 'left behind' after the star exhausted its fuel and expelled all its outer layers, leaving its core - a white dwarf.",
+  },
+  {
+    id: 106,
+    term: "White Hole",
+    description:
+      "These purely theoretical object are seen as the opposite brother of black holes -they release matter rather than suck it in, and nothing can enter one.",
+  },
+  {
+    id: 107,
+    term: "Wormhole",
+    description:
+      "Also known as Einstein-Rosen Bridge, it is a theory which suggest that it is possible to create a 'bridge' between two points in space-time, significantly reducing travelling distance. Even if it were possible to create such bridge, the amounts of energy required would be so immense it is humanly impossible.",
+  },
+  {
+    id: 108,
+    term: "X-Ray Astronomy",
+    description:
+      "The branch of Astronomy which observes and studies celestial object emitting X-Rays.",
+  },
+  {
+    id: 109,
+    term: "X-Ray Binary",
+    description:
+      "These are a category of binary stars, generally consisting of a white dwarf and a collapsed star, emitting high amounts of energy in the for of X-Rays.",
+  },
+  {
+    id: 110,
+    term: "Zwicky Catalog",
+    description:
+      "	A catalog which encompassing almost 40,000 Galaxies and Galaxy Clusters.",
   },
 ];
 
