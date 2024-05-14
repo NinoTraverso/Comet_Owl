@@ -13,7 +13,7 @@ function createGlossaryCard(glossary) {
     >
       <GlossaryCard
         id={glossary.id}
-        termn={glossary.term}
+        term={glossary.term}
         description={glossary.description}
       />
     </div>
