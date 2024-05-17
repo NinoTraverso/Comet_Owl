@@ -10,7 +10,9 @@ function GlossaryCard(props) {
           {props.term}
         </h2>
 
-        <h5 className="description glossaryDescription">{props.description}</h5>
+        <h5 className="description glossaryDescription text-center">
+          {props.description}
+        </h5>
       </div>
     </div>
   );
