@@ -9,7 +9,7 @@ function Contact() {
       <SpeedInsights />
       <div className="nav-separator"></div>
 
-      <h1>Contact</h1>
+      <h1>Some other page</h1>
     </div>
   );
 }
