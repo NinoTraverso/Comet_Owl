@@ -6,7 +6,7 @@ function GlossaryCard(props) {
   return (
     <div id="glossaryCards" className={`${className}`}>
       <div className="d-flex flex-column justify-content-center aling-items-center ">
-        <h2 className="term glossaryTerm text-center text-primary">
+        <h2 className="term glossaryTerm text-center text-info">
           {props.term}
         </h2>
 
