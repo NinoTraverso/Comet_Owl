@@ -26,7 +26,7 @@ function Glossary() {
       <Analytics />
       <SpeedInsights />
       <div className="nav-separator"></div>
-      <h1>Glossary List</h1>
+      <h1 className="text-danger">Glossary List</h1>
 
       <div className="row mb-5 mx-1">{glossary.map(createGlossaryCard)}</div>
     </div>
