@@ -16,9 +16,21 @@ function Footer() {
         </div>
         <div className="d-flex flex-column text-center align-items-center">
           <h3>Contact form</h3>
-          <input type="text" placeholder="Name" className="my-1" />
-          <input type="email" placeholder="Email" className="my-1" />
-          <input type="text" placeholder="Message" className="my-1" />
+          <input
+            type="text"
+            placeholder="Name"
+            className="text-light bg-dark my-1"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            className=" text-light bg-dark my-1"
+          />
+          <input
+            type="text"
+            placeholder="Message"
+            className=" text-light bg-dark my-1"
+          />
           <button className="text-light bg-dark border border-none">
             Submit
           </button>
