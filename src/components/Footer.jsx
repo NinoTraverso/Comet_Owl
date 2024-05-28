@@ -19,7 +19,9 @@ function Footer() {
           <input type="text" placeholder="Name" className="my-1" />
           <input type="email" placeholder="Email" className="my-1" />
           <input type="text" placeholder="Message" className="my-1" />
-          <button className="text-dark bg-tertiary">Submit</button>
+          <button className="text-light bg-dark border border-none">
+            Submit
+          </button>
         </div>
       </div>
     </footer>
