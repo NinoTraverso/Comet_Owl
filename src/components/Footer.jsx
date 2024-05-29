@@ -31,8 +31,8 @@ function Footer() {
             placeholder="Message"
             className=" text-light bg-dark my-1"
           />
-          <button className="text-light bg-dark border border-none">
-            Send
+          <button className="text-light bg-dark border border-none my-1 px-4">
+            Submit
           </button>
         </div>
       </div>
