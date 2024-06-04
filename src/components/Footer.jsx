@@ -8,7 +8,7 @@ function Footer() {
       <div className="d-flex flex-column flex-md-row justify-content-around align-items-center">
         <div
           id="footerLogo"
-          className="d-flex flex-column justify-content-center align-items-center py-3"
+          className="d-flex flex-column justify-content-center align-items-center py-2"
         >
           <img src="./assets/logo/logoAndName.png" alt="cometowl logo" />
 
