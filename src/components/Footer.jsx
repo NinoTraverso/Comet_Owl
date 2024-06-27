@@ -32,7 +32,7 @@ function Footer() {
             className=" text-light bg-dark my-1"
           />
           <button className="text-light bg-dark border border-none my-1 px-4">
-            Send
+            Text
           </button>
         </div>
       </div>
