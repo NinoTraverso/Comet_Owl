@@ -15,7 +15,7 @@ function Footer() {
           <h4 className="mx-3">Copyright &#169; {currentYear} - CometOwl</h4>
         </div>
         <div className="d-flex flex-column text-center align-items-center my-4">
-          <h3 className="bg-dark bg-rounded w-100">Message</h3>
+          <h3 className="bg-dark bg-rounded w-100">Contact</h3>
           <input
             type="text"
             placeholder="Name"
