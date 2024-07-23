@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Glossary from "./Glossary";
 import Articles from "./Articles";
-import Contact from "./Contact";
+import More from "./More";
 
 function Navbar() {
   return (
@@ -26,8 +26,8 @@ function Navbar() {
             <Link to="/Glossary">
               <h4 className="mx-3">Glossary</h4>
             </Link>
-            <Link to="/Contact">
-              <h4 className="mx-3">Contact</h4>
+            <Link to="/More">
+              <h4 className="mx-3">More</h4>
             </Link>
           </div>
         </nav>
@@ -70,8 +70,8 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
-                    <h4 className="mx-3">Contact</h4>
+                  <Link className="nav-link" to="/more">
+                    <h4 className="mx-3">More</h4>
                   </Link>
                 </li>
               </ul>
@@ -83,7 +83,7 @@ function Navbar() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Articles" element={<Articles />} />
           <Route path="/Glossary" element={<Glossary />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/More" element={<More />} />
         </Routes>
       </BrowserRouter>
     </div>

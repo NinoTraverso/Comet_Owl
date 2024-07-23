@@ -2,7 +2,7 @@ import React from "react";
 import Analytics from "./Analytics";
 import SpeedInsights from "./SpeedInsights";
 
-function Contact() {
+function More() {
   return (
     <div>
       <Analytics />
@@ -14,4 +14,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default More;
