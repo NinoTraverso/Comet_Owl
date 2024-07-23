@@ -19,10 +19,10 @@ function More() {
           exoplanets in Exoplore where you'll be able to explore exoplanets
           features from size, temperature, composition and more!
         </h3>
-        <h2 className="bg-rounded bg-primary w-25 text-center">
+        <h2 className="w-25 text-center">
           <a
             href="https://exoplore.vercel.app/"
-            className="text-light text-decoration-none bg-rounded"
+            className="text-secondary text-decoration-none bg-rounded"
           >
             Exoplore
           </a>
