@@ -8,8 +8,26 @@ function More() {
       <Analytics />
       <SpeedInsights />
       <div className="nav-separator"></div>
-
-      <h1>Some other page/pages</h1>
+      <div
+        id="Exoplore"
+        className="text-center d-flex flex-column align-items-center"
+      >
+        <h1>Explore exoplanets</h1>
+        <h3>
+          Have you ever wondered about other planets outside our solar system?
+          You can explore a full list of current and updated discovered
+          exoplanets in Exoplore where you'll be able to explore exoplanets
+          features from size, temperature, composition and more!
+        </h3>
+        <h2 className="bg-rounded bg-primary w-25 text-center">
+          <a
+            href="https://exoplore.vercel.app/"
+            className="text-light text-decoration-none bg-rounded"
+          >
+            Exoplore
+          </a>
+        </h2>
+      </div>
     </div>
   );
 }
