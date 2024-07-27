@@ -9,7 +9,7 @@ function createArticleCard(article) {
   return (
     <div
       key={article.id}
-      className="col-12 col-xl-4 mb-5 d-flex justify-content-center"
+      className="col-12 col-xl-6 mb-5 d-flex align-self-center"
     >
       <ArticleCard
         id={article.id}
@@ -51,7 +51,7 @@ function Articles() {
           ARTICLES
         </h1>
         */}
-        <div className="column mb-5 mx-1">
+        <div className="column mb-5 mx-1 d-flex flex-column align-items-center">
           {articles.map(createArticleCard)}
         </div>
       </div>
