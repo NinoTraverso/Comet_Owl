@@ -51,7 +51,9 @@ function Articles() {
           ARTICLES
         </h1>
         */}
-        <div className="row mb-5 mx-1">{articles.map(createArticleCard)}</div>
+        <div className="column mb-5 mx-1">
+          {articles.map(createArticleCard)}
+        </div>
       </div>
     </div>
   );
