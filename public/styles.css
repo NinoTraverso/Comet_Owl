@@ -543,6 +543,51 @@ nav {
   height: auto;
 }
 
+#articleCard {
+  width: 100%;
+}
+
+.article-content {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.article-image {
+  transition: transform 0.3s ease;
+}
+
+.article-image:hover {
+  transform: scale(1.1);
+}
+
+.expanded-content {
+  text-align: center;
+  width: 100%;
+}
+
+/* ARTICLE BUTTON */
+.articleButton {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #363062;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #4d4c7d;
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+.articleButton:hover {
+  background: #45717a;
+  font-size: 1.5em;
+}
+
 /*--------------------------- FOOTER SECTION ---------------------- */
 
 /*
