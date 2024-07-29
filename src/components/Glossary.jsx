@@ -52,7 +52,7 @@ function Glossary() {
       <Analytics />
       <SpeedInsights />
       <div className="nav-separator"></div>
-      <h1 className="text-secondary">Glossary</h1>
+
       <div className="d-flex flex-row">
         <div className="mb-3 w-25">
           <input
@@ -64,13 +64,16 @@ function Glossary() {
           />
         </div>
         <div className="mb-3">
-          <button className="btn btn-link" onClick={handleAllClick}>
+          <button
+            className="btn btn-link text-secondary text-decoration-none"
+            onClick={handleAllClick}
+          >
             All
           </button>
           {alphabet.map((letter) => (
             <button
               key={letter}
-              className="btn btn-link"
+              className="btn btn-link text-light text-decoration-none"
               onClick={() => handleLetterClick(letter)}
             >
               {letter}
