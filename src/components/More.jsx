@@ -13,7 +13,7 @@ function More() {
         className="text-center d-flex flex-column align-items-center"
       >
         <h1>Explore exoplanets</h1>
-        <h3 className="mx-4">
+        <h3 className="mx-5">
           Have you ever wondered about other planets outside our solar system?
           You can explore a full list of current and updated discovered
           exoplanets in Exoplore where you'll be able to explore exoplanets
