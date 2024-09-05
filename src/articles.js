@@ -52,15 +52,15 @@ title: "".
 frontImage: "".
 introduction: "",
 background: "",
-main: "",
 illustrationOne: "",
-    illustrationTwo: "",
-    discussion: "",
-    conlcusionImage: "",
-    conclusion:
-      "",
-    references: "",
-    author: "N.J.T.",
+textOne: "",
+illustrationTwo: "",
+textTwo: "",
+textThree: "",
+conlcusionImage: "",
+conclusion: "",
+references: "",
+author: "N.J.T.",
 },
 */
 
@@ -76,7 +76,7 @@ const articles = [
     illustrationOne: "./assets/space-images/marsSpaceship.jpg",
     illustrationTwo: "./assets/space-images/marsAstronaut.jpg",
     textTwo: "",
-    conlcusionImage: "",
+    conlcusionImage: "./assets/space-images/marsAstronaut.jpg",
     conclusion:
       "So, should we go to Mars? The answer in my opinion is yes, but the current technology, social and  political implications indicate it is still too early to take such a big step. Moving to Mars would mean learning how to terraform an entire, sterile, new world and currently we can barely keep control over our own planet (the ozone layer hole, pollution, global warming…). Are we really ready for this kind of journey?",
     references: "",
@@ -114,7 +114,7 @@ const articles = [
     illustrationTwo: "./assets/space-images/PIImpactor.jpg",
     discussion:
       "Fortunately, a promising paper written by Luben and Cohen 2023 seems to have found a successful way to mitigate hazardous object in both the short and long term, depending on size. The method is called Pulverize-It (PI for short) and is essentially a similar concept to that of DART, with the exception that it’s not one kinetic impactor targeting the object but a full 10x10 up to 40x40 group of hypervelocity kinetic impactors in order to break down an asteroid so that its fragments reach a diameter of 10 meters (or less). Computer simulations run during this study have shown that, not only this method is able to mitigate asteroid as small as 15 meters in diameter (like Chelyabinsk) 86 second before impact, but is also able to mitigate asteroids up to 1 km in diameter 60 days before impact. After the asteroid has been broken down into 10 meter (or less) fragment we led them fall down onto Earth where the atmosphere does the hard work for us, breaking down these fragment into smaller explosion which will cause little damage to the population, including avoiding airburst which, for a 10 meter fragment, would occur at a height of 30 km or less from the ground. This means that, not only this would allow us to mitigate these threats, but we would be able to avoid any damage to the people and the cities below the impact point.",
-    conlcusionImage: "",
+    conlcusionImage: "./assets/space-images/spaceFlashlight.jpg",
     conclusion:
       "Currently these two methods seem to be the most promising but further studies, methods and research must be done in order to properly have a tackling method for planetary defence in order to save our planet from such threats. ",
     references: "",

@@ -21,7 +21,7 @@ function createArticleCard(article) {
         textTwo={article.main}
         illustrationTwo={article.illustrationTwo}
         textThree={article.discussion}
-        conlcusionImage={article.conlcusionImage}
+        conclusionImage={article.conlcusionImage}
         conclusion={article.conclusion}
         references={article.references}
         author={article.author}

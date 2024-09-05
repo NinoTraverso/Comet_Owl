@@ -27,10 +27,11 @@ function ArticleCard(props) {
         </div>
         {isExpanded && (
           <div className="expanded-content">
+            {/* --------------------------------------------- INTRODUCTION ---------------------------------------------------*/}
             <h5 className="details articleDetails my-5">
               {props.introduction || ""}
             </h5>
-            {/* --------------------------------------------- TEXTONE & IMAGEONE*/}
+            {/* --------------------------------------------- TEXT ONE & ILLUSTRATION ONE ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix">
               <img
                 src={props.illustrationOne || ""}
@@ -39,28 +40,37 @@ function ArticleCard(props) {
               />
               {props.textOne || ""}
             </h5>
-
+            {/* --------------------------------------------- TEXT TWO & ILLUSTRATION TWO ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix my-5">
               <img
                 src={props.illustrationTwo || ""}
                 alt={props.title || ""}
                 className="illustrationTwo"
               />
-              {props.textThree || ""}
+              {props.textTwo || ""}
             </h5>
-
-            <h5 className="details articleDetails d-flex justify-content-center my-5">
+            {/* --------------------------------------------- TEXT THREE  ---------------------------------------------------*/}
+            <h5 className="details articleDetails">{props.textThree || ""}</h5>
+            {/* --------------------------------------------- CONCLUSION IMAGE  ---------------------------------------------------*/}
+            <div className="details articleDetails d-flex justify-content-center my-5">
               <img
                 src={props.conclusionImage || ""}
                 alt={props.title || ""}
                 className="conclusionImage my-4"
               />
+            </div>
+            {/* --------------------------------------------- CONCLUSIONS ---------------------------------------------------*/}
+            <h5 className="details articleDetails d-flex justify-content-center my-5">
+              {props.conclusion || ""}
             </h5>
-            <h5 className="details articleDetails">{props.conclusion || ""}</h5>
+            {/* --------------------------------------------- REFERENCES  ---------------------------------------------------*/}
             <h5 className="name articleName text-center my-2">
               {props.references || ""}
             </h5>
+            {/* --------------------------------------------- AUTHOR  ---------------------------------------------------*/}
             <h5 className="details articleDetails">{props.author || ""}</h5>
+
+            {/* --------------------------------------------- BUTTON TO CLOSE ARTICLE  ---------------------------------------------------*/}
             <button onClick={handleToggle} className="articleButton">
               Close
             </button>
