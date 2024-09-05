@@ -38,14 +38,14 @@ function ArticleCard(props) {
               <img
                 src={props.illustrationOne || ""}
                 alt={props.title || ""}
-                className="illustrationOne d-flex flex-left text-nowrap"
+                className="illustrationOne d-flex flex-left"
               />
             </h5>
-            <h5 className="name articleName text-center my-2">
+            <h5 className="details articleDetails">
               <img
                 src={props.illustrationTwo || ""}
                 alt={props.title || ""}
-                className="illustrationTwo"
+                className="illustrationTwo d-flex flex-left"
               />
             </h5>
             <h5 className="details articleDetails">{props.discussion || ""}</h5>
