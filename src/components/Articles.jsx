@@ -18,9 +18,9 @@ function createArticleCard(article) {
         introduction={article.introduction}
         textOne={article.textOne}
         illustrationOne={article.illustrationOne}
-        textTwo={article.main}
+        textTwo={article.textTwo}
         illustrationTwo={article.illustrationTwo}
-        textThree={article.discussion}
+        textThree={article.three}
         conclusionImage={article.conlcusionImage}
         conclusion={article.conclusion}
         references={article.references}

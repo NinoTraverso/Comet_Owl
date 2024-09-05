@@ -28,25 +28,31 @@ function ArticleCard(props) {
         {isExpanded && (
           <div className="expanded-content">
             {/* --------------------------------------------- INTRODUCTION ---------------------------------------------------*/}
-            <h5 className="details articleDetails my-5">
-              {props.introduction || ""}
-            </h5>
-            {/* --------------------------------------------- TEXT ONE & ILLUSTRATION ONE ---------------------------------------------------*/}
-            <h5 className="details articleDetails clearfix">
-              <img
-                src={props.illustrationOne || ""}
-                alt={props.title || ""}
-                className="illustrationOne"
-              />
+            <h5 className="details articleDetails clearfix my-5">
+              <div className="illustrationOne d-inline-flex flex-column">
+                <img
+                  src={props.illustrationOne || ""}
+                  alt={props.title || ""}
+                  className="illustrationOne"
+                />
+                <span className="d-flex align-self-center">
+                  {props.imageReferenceOne || ""}
+                </span>
+              </div>
               {props.textOne || ""}
             </h5>
             {/* --------------------------------------------- TEXT TWO & ILLUSTRATION TWO ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix my-5">
-              <img
-                src={props.illustrationTwo || ""}
-                alt={props.title || ""}
-                className="illustrationTwo"
-              />
+              <div className="illustrationTwo d-flex flex-column justify-content-center my-0 mx-0">
+                <img
+                  src={props.illustrationTwo || ""}
+                  alt={props.title || ""}
+                  className="illustrationTwo"
+                />
+                <span className="d-flex align-self-center">
+                  {props.imageReferenceTwo || ""}
+                </span>
+              </div>
               {props.textTwo || ""}
             </h5>
             {/* --------------------------------------------- TEXT THREE  ---------------------------------------------------*/}
