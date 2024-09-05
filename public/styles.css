@@ -566,9 +566,23 @@ nav {
 .illustrationTwo {
   width: 400px;
   height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-.illustrationTwo img {
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.conclusionImage {
+  width: 400px;
+  height: auto;
+}
+
+.conclusionImage img {
   width: 400px;
   height: auto;
 }

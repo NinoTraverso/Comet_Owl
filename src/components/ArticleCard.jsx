@@ -27,27 +27,34 @@ function ArticleCard(props) {
         </div>
         {isExpanded && (
           <div className="expanded-content">
-            <h5 className="details articleDetails">{props.background || ""}</h5>
+            <h5 className="details articleDetails my-5">
+              {props.introduction || ""}
+            </h5>
+            {/* --------------------------------------------- TEXTONE & IMAGEONE*/}
             <h5 className="details articleDetails clearfix">
-              <div className="my-5">{props.introduction || ""}</div>
               <img
                 src={props.illustrationOne || ""}
                 alt={props.title || ""}
                 className="illustrationOne"
               />
-              {props.main || ""}
+              {props.textOne || ""}
             </h5>
 
-            <h5 className="details articleDetails d-flex justify-content-center">
+            <h5 className="details articleDetails clearfix my-5">
               <img
                 src={props.illustrationTwo || ""}
                 alt={props.title || ""}
-                className="illustrationTwo my-4"
+                className="illustrationTwo"
               />
+              {props.textThree || ""}
             </h5>
-            <h5 className="details articleDetails">{props.discussion || ""}</h5>
-            <h5 className="name articleName text-center my-2">
-              {props.conlcusionImage || ""}
+
+            <h5 className="details articleDetails d-flex justify-content-center my-5">
+              <img
+                src={props.conclusionImage || ""}
+                alt={props.title || ""}
+                className="conclusionImage my-4"
+              />
             </h5>
             <h5 className="details articleDetails">{props.conclusion || ""}</h5>
             <h5 className="name articleName text-center my-2">
