@@ -543,14 +543,24 @@ nav {
   height: auto;
 }
 
+.articleDetails {
+  max-width: 80%; /* Limit the width of the text and image container */
+  margin: 0 auto; /* Center the entire content block */
+  text-align: justify; /* Makes the text flow more evenly */
+}
+
 .illustrationOne {
   width: 400px;
   height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.illustrationOne img {
-  width: 400px;
-  height: auto;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; /* Ensures text does not overflow after float */
 }
 
 .illustrationTwo {
