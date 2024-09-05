@@ -35,10 +35,18 @@ function ArticleCard(props) {
               {props.main || ""}
             </h5>
             <h5 className="details articleDetails">
-              {props.illustrationOne || ""}
+              <img
+                src={props.illustrationOne || ""}
+                alt={props.title || ""}
+                className="illustrationOne d-flex flex-left text-nowrap"
+              />
             </h5>
             <h5 className="name articleName text-center my-2">
-              {props.illustrationTwo || ""}
+              <img
+                src={props.illustrationTwo || ""}
+                alt={props.title || ""}
+                className="illustrationTwo"
+              />
             </h5>
             <h5 className="details articleDetails">{props.discussion || ""}</h5>
             <h5 className="name articleName text-center my-2">

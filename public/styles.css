@@ -543,6 +543,26 @@ nav {
   height: auto;
 }
 
+.illustrationOne {
+  width: 400px;
+  height: auto;
+}
+
+.illustrationOne img {
+  width: 400px;
+  height: auto;
+}
+
+.illustrationTwo {
+  width: 400px;
+  height: auto;
+}
+
+.illustrationTwo img {
+  width: 400px;
+  height: auto;
+}
+
 #articleCard {
   width: 100%;
 }
