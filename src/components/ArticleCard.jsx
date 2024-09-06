@@ -33,7 +33,7 @@ function ArticleCard(props) {
             </h5>
             {/* --------------------------------------------- TEXT ONE ---------------------------------------------------*/}
             <h5 className="details articleDetails my-5">
-              {props.textFour || ""}
+              {props.textOne || ""}
             </h5>
             {/* --------------------------------------------- TEXT TWO & ILLUSTRATION ONE ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix my-5">
@@ -72,10 +72,16 @@ function ArticleCard(props) {
               {props.conclusion || ""}
             </h5>
             {/* --------------------------------------------- REFERENCES  ---------------------------------------------------*/}
-            <h4 className="text-secondary">References</h4>
-            <p className="details articleDetails d-flex justify-content-center my-5 text-secondary">
-              {props.references || ""}
-            </p>
+
+            {props.references && (
+              <>
+                <h4 className="text-secondary">References</h4>
+                <p className="details articleDetails d-flex justify-content-center my-5 text-secondary">
+                  {props.references}
+                </p>
+              </>
+            )}
+
             {/* --------------------------------------------- AUTHOR  ---------------------------------------------------*/}
             <h5 className="details articleDetails">{props.author || ""}</h5>
 
