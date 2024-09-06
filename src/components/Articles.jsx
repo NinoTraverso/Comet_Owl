@@ -18,6 +18,7 @@ function createArticleCard(article) {
         introduction={article.introduction}
         textOne={article.textOne}
         illustrationOne={article.illustrationOne}
+        captionTwo={article.captionTwo}
         textTwo={article.textTwo}
         illustrationTwo={article.illustrationTwo}
         textThree={article.three}

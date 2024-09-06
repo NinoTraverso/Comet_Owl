@@ -126,6 +126,7 @@ const articles = [
       "Currently there are thousands of Near-Earth Objects (NEOs for short) which are orbiting close to Earth. Some of these are small objects and pose no threat to us, some on the other hand could be potentially hazardous. Even one of these meteors, such as the Chelyabinsk meteor, can cause damage if not tackled, which released an airburst that destroyed many glass windows and caused hundreds of injured. This was “only” a 15-meter diameter asteroid. Stopping one of these objects is more complex than you may think. Imagine someone throwing a 1 kg ball of steel from an airplane destined to fall on your car, and you have to find a way to catch it safely before it damages your car or someone. Although it is no simple task, there have been recent studies and missions which show promising results for tackling these threats both in the short and long term. ",
     illustrationTwo:
       "./assets/articleImages/isEarthDefenslessAgainstAsteroidsAndComets/PIImpactor.jpg",
+    captionTwo: "Image Two",
     textTwo:
       "The first method, which is something you may have already come across the news in recent years, is NASAs mission DART (Double Asteroid Redirection Test). The main concept behind this idea is sending a probe towards the target (asteroid or comet) and change its orbit so that, if it was on course towards Earth, it would change its orbit so that to avoid impact. The probe is kinetic impactor, essentially a mass with a certain shape, mass and speed which when smashed onto the target it would produce a small explosion cause the target to release an ejecta of mass and gas, cause a force onto it that would ultimately alter its course. DART successfully impacted onto Dimporphis (an asteroid orbiting another asteroid, similarly as the Moon orbits the Earth) in 2022 and was able to alter its orbit around its parent asteroid Didymos. Although this method was successful it requires people to be able to detect the object in advance in order for a kinetic impactor to successfully alter its course. So, on the long run a method has been tested and is currently undergoing further studies, but what about the short term when we only notice an object about to hit the Earth a couple of months in advance? ",
     textThree:
@@ -134,7 +135,8 @@ const articles = [
       "./assets/articleImages/isEarthDefenslessAgainstAsteroidsAndComets/watchingMeteor.jpg",
     conclusion:
       "Currently these two methods seem to be the most promising but further studies, methods and research must be done in order to properly have a tackling method for planetary defence in order to save our planet from such threats. ",
-    references: "",
+    references:
+      "Lubin P., Cohen AN, (2023) ‘Asteroid interception and disruption for terminal planetary defense’, Advances in Space Research, vol 71 (issue 3), page 1827-1839. Available at: https://www-sciencedirect-com.libezproxy.open.ac.uk/science/article/pii/S0273117722009395?via%3Dihub (Accessed on: March 20, 2024)_________NASA/Johns Hopkins APL (2024), ‘Illustration of DART 2 – Illustration of  DART, from behind the NEXT-C ion engine’ [Digital Art], Available at: https://dart.jhuapl.edu/Gallery/index.php (Accessed on: March 20, 2024)",
     author: "N.J.T.",
   },
 ];

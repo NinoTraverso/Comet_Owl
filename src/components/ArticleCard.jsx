@@ -36,7 +36,7 @@ function ArticleCard(props) {
               <img
                 src={props.illustrationOne || ""}
                 alt={props.title || ""}
-                className="illustrationOne"
+                className="illustrationOne my-2"
               />
 
               {props.textOne || ""}
@@ -46,7 +46,7 @@ function ArticleCard(props) {
               <img
                 src={props.illustrationTwo || ""}
                 alt={props.title || ""}
-                className="illustrationTwo"
+                className="illustrationTwo "
               />
 
               {props.textTwo || ""}
@@ -66,9 +66,10 @@ function ArticleCard(props) {
               {props.conclusion || ""}
             </h5>
             {/* --------------------------------------------- REFERENCES  ---------------------------------------------------*/}
-            <h5 className="name articleName text-center my-2">
+            <h4 className="text-secondary">References</h4>
+            <p className="details articleDetails d-flex justify-content-center my-5 text-secondary">
               {props.references || ""}
-            </h5>
+            </p>
             {/* --------------------------------------------- AUTHOR  ---------------------------------------------------*/}
             <h5 className="details articleDetails">{props.author || ""}</h5>
 
