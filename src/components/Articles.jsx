@@ -17,11 +17,11 @@ function createArticleCard(article) {
         frontImage={article.frontImage}
         introduction={article.introduction}
         textOne={article.textOne}
-        illustrationOne={article.illustrationOne}
-        captionTwo={article.captionTwo}
         textTwo={article.textTwo}
+        illustrationOne={article.illustrationOne}
+        textThree={article.textThree}
         illustrationTwo={article.illustrationTwo}
-        textThree={article.three}
+        textFour={article.textFour}
         conclusionImage={article.conlcusionImage}
         conclusion={article.conclusion}
         references={article.references}

@@ -31,7 +31,11 @@ function ArticleCard(props) {
             <h5 className="details articleDetails my-5">
               {props.introduction || ""}
             </h5>
-            {/* --------------------------------------------- TEXT ONE & ILLUSTRATION ONE ---------------------------------------------------*/}
+            {/* --------------------------------------------- TEXT ONE ---------------------------------------------------*/}
+            <h5 className="details articleDetails my-5">
+              {props.textFour || ""}
+            </h5>
+            {/* --------------------------------------------- TEXT TWO & ILLUSTRATION ONE ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix my-5">
               <img
                 src={props.illustrationOne || ""}
@@ -39,9 +43,9 @@ function ArticleCard(props) {
                 className="illustrationOne my-2"
               />
 
-              {props.textOne || ""}
+              {props.textTwo || ""}
             </h5>
-            {/* --------------------------------------------- TEXT TWO & ILLUSTRATION TWO ---------------------------------------------------*/}
+            {/* --------------------------------------------- TEXT THREE & ILLUSTRATION TWO ---------------------------------------------------*/}
             <h5 className="details articleDetails clearfix my-5">
               <img
                 src={props.illustrationTwo || ""}
@@ -49,10 +53,12 @@ function ArticleCard(props) {
                 className="illustrationTwo "
               />
 
-              {props.textTwo || ""}
+              {props.textThree || ""}
             </h5>
-            {/* --------------------------------------------- TEXT THREE  ---------------------------------------------------*/}
-            <h5 className="details articleDetails">{props.textThree || ""}</h5>
+            {/* --------------------------------------------- TEXT FOUR  ---------------------------------------------------*/}
+            <h5 className="details articleDetails my-5">
+              {props.textFour || ""}
+            </h5>
             {/* --------------------------------------------- CONCLUSION IMAGE  ---------------------------------------------------*/}
             <div className="details articleDetails d-flex justify-content-center my-5">
               <img
