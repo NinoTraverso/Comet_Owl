@@ -26,6 +26,7 @@ function GettingExoTables() {
   const [isLoading, setIsLoading] = useState(false);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
+  const [searchId, setSearchId] = useState<number | null>(null);
 
   const abortControllerRef = useRef<AbortController | null>(null);
 
@@ -65,10 +66,19 @@ function GettingExoTables() {
   }, []);
 
   useEffect(() => {
-    const startIndex = (page - 1) * 20;
-    const endIndex = startIndex + 20;
-    setDisplayedTables(allTables.slice(startIndex, endIndex));
-  }, [page, allTables]);
+    const filteredTables =
+      searchId !== null
+        ? allTables.filter((entry) => entry.kepid === searchId)
+        : allTables.slice((page - 1) * 20, page * 20);
+
+    setDisplayedTables(filteredTables);
+  }, [searchId, page, allTables]);
+
+  const handleSearch = () => {
+    if (searchId) {
+      setPage(1); // Reset to first page on search
+    }
+  };
 
   if (error) {
     return <div>Something went wrong: {error}</div>;
@@ -85,6 +95,19 @@ function GettingExoTables() {
       <br />
       <br />
       <h1 className="text-center border-bottom">Exoplanets</h1>
+
+      <div className="search-container text-center">
+        <input
+          type="number"
+          placeholder="Enter exoplanet ID"
+          value={searchId || ""}
+          onChange={(e) => setSearchId(Number(e.target.value))}
+          className="text-dark"
+        />
+        <button className="text-dark" onClick={handleSearch}>
+          Search
+        </button>
+      </div>
 
       {isLoading && (
         <div className="loadingHeight text-center d-flex align-items-center justify-content-center">
@@ -135,26 +158,28 @@ function GettingExoTables() {
             )}
           </ul>
 
-          <div className="pagination-controls text-center">
-            <button
-              onClick={() => setPage((prevPage) => Math.max(prevPage - 1, 1))}
-              disabled={page === 1}
-            >
-              Previous
-            </button>
-            <span>
-              {" "}
-              {page}/{totalPages}{" "}
-            </span>
-            <button
-              onClick={() =>
-                setPage((prevPage) => Math.min(prevPage + 1, totalPages))
-              }
-              disabled={page === totalPages}
-            >
-              Next
-            </button>
-          </div>
+          {!searchId && (
+            <div className="pagination-controls text-center">
+              <button
+                onClick={() => setPage((prevPage) => Math.max(prevPage - 1, 1))}
+                disabled={page === 1}
+              >
+                Previous
+              </button>
+              <span>
+                {" "}
+                {page}/{totalPages}{" "}
+              </span>
+              <button
+                onClick={() =>
+                  setPage((prevPage) => Math.min(prevPage + 1, totalPages))
+                }
+                disabled={page === totalPages}
+              >
+                Next
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>
