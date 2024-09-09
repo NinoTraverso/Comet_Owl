@@ -140,7 +140,7 @@ const articles = [
     conclusion:
       "Currently these two methods seem to be the most promising but further studies, methods and research must be done in order to properly have a tackling method for planetary defence in order to save our planet from such threats. A planetary defence system is key to the safeguard of our planet and the protection of life it hosts.",
     references:
-      "Lubin P., Cohen AN, (2023) ‘Asteroid interception and disruption for terminal planetary defense’, Advances in Space Research, vol 71 (issue 3), page 1827-1839. Available at: https://www-sciencedirect-com.libezproxy.open.ac.uk/science/article/pii/S0273117722009395?via%3Dihub (Accessed on: March 20, 2024)_________NASA/Johns Hopkins APL (2024), ‘Illustration of DART 2 – Illustration of  DART, from behind the NEXT-C ion engine’ [Digital Art], Available at: https://dart.jhuapl.edu/Gallery/index.php (Accessed on: March 20, 2024)",
+      "Lubin P., Cohen AN, (2023) ‘Asteroid interception and disruption for terminal planetary defense’, Advances in Space Research, vol 71 (issue 3), page 1827-1839. Available at: https://www.sciencedirect.com/science/article/pii/S0273117722009395 (Accessed on: September 9, 2024)_________NASA/Johns Hopkins APL (2024), ‘Illustration of DART 2 – Illustration of  DART, from behind the NEXT-C ion engine’ [Digital Art], Available at: https://dart.jhuapl.edu/Gallery/index.php (Accessed on: September 9, 2024)",
     author: "N.J.T.",
   },
 ];
