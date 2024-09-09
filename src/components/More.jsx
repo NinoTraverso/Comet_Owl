@@ -8,6 +8,29 @@ function More() {
       <Analytics />
       <SpeedInsights />
       <div className="nav-separator"></div>
+      <div className="d-flex flex-column text-center align-items-center my-4">
+        <h3 className="bg-dark bg-rounded ">Contact</h3>
+        <input
+          type="text"
+          placeholder="Name"
+          className="text-light bg-dark my-1"
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          className=" text-light bg-dark my-1"
+        />
+        <input
+          type="text"
+          placeholder="Message"
+          className=" text-light bg-dark my-1"
+        />
+        <button className="text-light bg-dark border border-none my-1 px-4">
+          Send
+        </button>
+      </div>
+
+      {/* 
       <div
         id="Exoplore"
         className="text-center d-flex flex-column align-items-center"
@@ -28,6 +51,7 @@ function More() {
           </a>
         </h2>
       </div>
+*/}
       <br></br>
       <br></br>
       <br></br>

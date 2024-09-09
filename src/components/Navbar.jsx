@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Glossary from "./Glossary";
 import Articles from "./Articles";
+import Exoplanets from "./Exoplanets.tsx";
 import More from "./More";
 
 function Navbar() {
@@ -25,6 +26,9 @@ function Navbar() {
             </Link>
             <Link to="/Glossary">
               <h4 className="mx-3">Glossary</h4>
+            </Link>
+            <Link to="/Exoplanets">
+              <h4 className="mx-3">Exoplanets</h4>
             </Link>
             <Link to="/More">
               <h4 className="mx-3">More</h4>
@@ -83,6 +87,7 @@ function Navbar() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Articles" element={<Articles />} />
           <Route path="/Glossary" element={<Glossary />} />
+          <Route path="/Exoplanets" element={<Exoplanets />} />
           <Route path="/More" element={<More />} />
         </Routes>
       </BrowserRouter>
