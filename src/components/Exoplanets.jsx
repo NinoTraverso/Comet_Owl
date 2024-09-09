@@ -68,16 +68,16 @@ function Exoplanets() {
       <br />
       <h1 className="text-center border-bottom">Exoplanets</h1>
 
-      <div className="search-container text-center mb-4">
+      <div className="text-center mb-4 ">
         <input
           type="text"
           placeholder="Kepler ID search"
           value={searchId}
           onChange={(e) => setSearchId(e.target.value)}
-          className="text-dark"
+          className="idSearchInput mx-2"
         />
         <button
-          className="text-dark"
+          className="idSsearchButton"
           onClick={() => {
             setCurrentPage(1);
           }}
