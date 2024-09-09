@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Glossary from "./Glossary";
 import Articles from "./Articles";
-import Exoplanets from "./Exoplanets.tsx";
+import Exoplanets from "./Exoplanets.jsx";
 import More from "./More";
 
 function Navbar() {
