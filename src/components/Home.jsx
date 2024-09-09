@@ -58,7 +58,7 @@ function Home() {
         </div>
         <div className="homeImages align-self-center rounded mx-5">
           <img
-            src="./assets/space-images/spaceFlashlight.jpg"
+            src="./assets/space-images/javier-miranda-bDFP8PxzW1Q-unsplash.jpg"
             alt="Nightsky and flashlight"
             className="rounded"
           />
