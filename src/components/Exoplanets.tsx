@@ -98,10 +98,10 @@ function GettingExoTables() {
 
       {!isLoading && (
         <div>
-          <ul className="mx-5 ">
+          <ul className="mx-5">
             {displayedTables.length > 0 ? (
               displayedTables.map((entry) => (
-                <li key={entry.kepid} className="border-bottom">
+                <li key={entry.kepid} className="border-bottom my-3">
                   <span className="dataName">Status: </span>
                   {entry.koi_disposition}&#59;
                   <span className="dataName">ID: </span>
