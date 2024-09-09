@@ -829,7 +829,7 @@ nav {
 }
 
 @media screen and (max-width: 540px) {
-  #comingSoonContainerSmallBig {
+  #comingSoonContainerSmallSmall {
     width: 200px;
   }
 }

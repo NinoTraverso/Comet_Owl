@@ -7,14 +7,15 @@ function More() {
     <div>
       <Analytics />
       <SpeedInsights />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
       <br />
-      <br />
-      <br />
-      <br className="d-none d-xl" />
-      <br className="d-none d-xl" />
-      <br className="d-none d-xl" />
-      <br className="d-none d-xl" />
-      <br className="d-none d-xl" />
+      <br className="d-flex d-md-none" />
+      <br className="d-flex d-md-none" />
 
       <div>
         <div
@@ -32,6 +33,9 @@ function More() {
           <h1 className="soon">Soon</h1>
         </div>
       </div>
+      <br className="d-flex d-md-none" />
+      <br className="d-flex d-md-none" />
+      <br className="d-flex d-md-none" />
     </div>
   );
 }
