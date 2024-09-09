@@ -5,7 +5,8 @@ import Home from "./Home";
 import Glossary from "./Glossary";
 import Articles from "./Articles";
 import Exoplanets from "./Exoplanets.jsx";
-import More from "./More";
+import More from "./More.jsx";
+import Contact from "./Contact.jsx";
 
 function Navbar() {
   return (
@@ -32,6 +33,9 @@ function Navbar() {
             </Link>
             <Link to="/More">
               <h4 className="mx-3">More</h4>
+            </Link>
+            <Link to="/Contact">
+              <h4 className="mx-3">Contact</h4>
             </Link>
           </div>
         </nav>
@@ -74,8 +78,18 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" to="/exoplanets">
+                    <h4 className="mx-3">Exoplanets</h4>
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link" to="/more">
                     <h4 className="mx-3">More</h4>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/contact">
+                    <h4 className="mx-3">Contact</h4>
                   </Link>
                 </li>
               </ul>
@@ -89,6 +103,7 @@ function Navbar() {
           <Route path="/Glossary" element={<Glossary />} />
           <Route path="/Exoplanets" element={<Exoplanets />} />
           <Route path="/More" element={<More />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

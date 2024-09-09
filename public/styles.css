@@ -749,6 +749,116 @@ nav {
   height: 74vh;
 }
 
+/*------------------------------------------------------------------ COMING SOON -----------------------------------------------*/
+
+#bgVideo {
+  object-fit: cover;
+  width: 1240px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#comingSoonContainerBig {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 400px;
+  bottom: 340px;
+  border: 10px solid #95b0b4;
+  background-color: black;
+  background: 0;
+}
+
+#comingSoonContainerSmall {
+  border: 10px solid #95b0b4;
+  background-color: black;
+  background: 0;
+}
+
+@media screen and (max-width: 1240px) {
+  #bgVideo {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #comingSoonContainerSmall {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #bgVideo {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #comingSoonContainerSmall {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #bgVideo {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #comingSoonContainerSmall {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #bgVideo {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #comingSoonContainerSmallBig {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #bgVideo {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #comingSoonContainerSmall {
+    width: 160px;
+  }
+}
+
+.coming {
+  color: #324b4e;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+}
+
+.soon {
+  color: #95b0b4;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 4px;
+}
 /*--------------------------- FOOTER SECTION ---------------------- */
 
 /*

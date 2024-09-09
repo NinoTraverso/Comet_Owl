@@ -7,57 +7,31 @@ function More() {
     <div>
       <Analytics />
       <SpeedInsights />
-      <div className="nav-separator"></div>
-      <div className="d-flex flex-column text-center align-items-center my-4">
-        <h3 className="bg-dark bg-rounded ">Contact</h3>
-        <input
-          type="text"
-          placeholder="Name"
-          className="text-light bg-dark my-1"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          className=" text-light bg-dark my-1"
-        />
-        <input
-          type="text"
-          placeholder="Message"
-          className=" text-light bg-dark my-1"
-        />
-        <button className="text-light bg-dark border border-none my-1 px-4">
-          Send
-        </button>
-      </div>
+      <br />
+      <br />
+      <br />
+      <br className="d-none d-xl" />
+      <br className="d-none d-xl" />
+      <br className="d-none d-xl" />
+      <br className="d-none d-xl" />
+      <br className="d-none d-xl" />
 
-      {/* 
-      <div
-        id="Exoplore"
-        className="text-center d-flex flex-column align-items-center"
-      >
-        <h1>Explore exoplanets</h1>
-        <h3 className="mx-4">
-          Have you ever wondered about other planets outside our solar system?
-          You can explore a full list of current and updated discovered
-          exoplanets in Exoplore where you'll be able to explore exoplanets
-          features from size, temperature, composition and more!
-        </h3>
-        <h2 className="w-25 text-center">
-          <a
-            href="https://exoplore.vercel.app/"
-            className="text-secondary text-decoration-none bg-rounded"
-          >
-            Exoplore
-          </a>
-        </h2>
+      <div>
+        <div
+          id="comingSoonContainerSmall"
+          className="d-flex d-xl-none justify-content-center mx-auto my-4"
+        >
+          <h1 className="coming">Coming</h1>
+          <h1 className="soon">Soon</h1>
+        </div>
+        <video autoPlay muted loop id="bgVideo" className="rounded">
+          <source src="./assets/backgrounds/owl (2160p).mp4" type="video/mp4" />
+        </video>
+        <div id="comingSoonContainerBig" className="d-none d-xl-flex flex-row">
+          <h1 className="coming">Coming</h1>
+          <h1 className="soon">Soon</h1>
+        </div>
       </div>
-*/}
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
     </div>
   );
 }
