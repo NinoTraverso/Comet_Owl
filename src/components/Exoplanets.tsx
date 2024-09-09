@@ -4,19 +4,19 @@ const BASE_URL =
   "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/nstedAPI/nph-nstedAPI?table=cumulative&format=json";
 
 interface Table {
-  koi_disposition: string;
-  kepid: number;
-  kepler_name: string;
-  ra_str: string;
-  dec_str: string;
-  koi_kepmag: number;
-  koi_period: number;
-  koi_duration: number;
-  koi_prad: number;
-  koi_teq: number;
-  koi_tce_plnt_num: number;
-  koi_steff: number;
-  koi_srad: number;
+  koi_disposition: string; //Confirmed, Candidate, False Positive
+  kepid: number; //kepler ID
+  kepler_name: string; //kepler name
+  ra_str: string; //Right Ascension (deg)
+  dec_str: string; //Declination (deg)
+  koi_kepmag: number; //Kepler-band (mag)
+  koi_period: number; //Orbital period (days)
+  koi_duration: number; //transit duration (hours)
+  koi_prad: number; // plantary radius (Earth Radii)
+  koi_teq: number; //Approximation for the temperature of the planet. The calculation of equilibrium temperature assumes a) thermodynamic equilibrium between the incident stellar flux and the radiated heat from the planet, b) a Bond albedo (the fraction of total power incident upon the planet scattered back into space) of 0.3, c) the planet and star are blackbodies, and d) the heat is evenly distributed between the day and night sides of the planet.
+  koi_tce_plnt_num: number; //number of planets
+  koi_steff: number; //star temperature (K)
+  koi_srad: number; //Star radius (Solar Radii)
 }
 
 function GettingExoTables() {
