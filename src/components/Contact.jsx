@@ -1,6 +1,7 @@
 import React from "react";
 import Analytics from "./Analytics";
 import SpeedInsights from "./SpeedInsights";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -9,25 +10,27 @@ function Contact() {
       <SpeedInsights />
       <div className="nav-separator"></div>
       <div className="d-flex flex-column text-center align-items-center my-4">
-        <h3 className="bg-dark bg-rounded ">Contact</h3>
-        <input
-          type="text"
-          placeholder="Name"
-          className="text-light bg-dark my-1"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          className=" text-light bg-dark my-1"
-        />
-        <input
-          type="text"
-          placeholder="Message"
-          className=" text-light bg-dark my-1"
-        />
-        <button className="text-light bg-dark border border-none my-1 px-4">
-          Send
-        </button>
+        <div className="w-75 mx-5 mt-3 mb-5">
+          <h1
+            id="contactTitle"
+            className="sectionTitle d-none d-xl-block align-self-end"
+          >
+            CONTACT
+          </h1>
+          <h1
+            id="contactTitle"
+            className="sectionTitleMedium d-none d-md-block d-xl-none text-center"
+          >
+            CONTACT
+          </h1>
+          <h1
+            id="contactTitle"
+            className="sectionTitleSmall d-block d-md-none text-center"
+          >
+            CONTACT
+          </h1>
+          <ContactForm />
+        </div>
       </div>
 
       {/* 
