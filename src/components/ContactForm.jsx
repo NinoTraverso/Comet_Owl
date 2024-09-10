@@ -6,6 +6,7 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_KEY,
@@ -17,6 +18,7 @@ export const ContactUs = () => {
         (result) => {
           console.log(result.text);
           alert("Message Sent!");
+
           form.current.reset();
         },
         (error) => {
@@ -24,6 +26,7 @@ export const ContactUs = () => {
         }
       );
   };
+
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div
@@ -64,44 +67,4 @@ export const ContactUs = () => {
       </div>
     </form>
   );
-  /* 
-  return (
-    <form ref={form} onSubmit={sendEmail}>
-      <div
-        id="contactFormContainer"
-        className="d-flex flex-column justify-content-center align-items-center p-3 mx-auto"
-      >
-        <input
-          className="inputName w-75 my-4 rounded"
-          type="text"
-          name="user_name"
-          placeholder="  Your name"
-          required
-        />
-        <input
-          className="inputEmail w-75 my-4 rounded"
-          type="email"
-          name="user_email"
-          placeholder="  Your email"
-          required
-        />
-        <textarea
-          className="inputMessage w-75 my-4 rounded"
-          name="message"
-          maxLength="500"
-          placeholder="  Write your message..."
-          required
-        />
-
-        <input
-          id="contactFormButton"
-          className="align-self-center pt-2 pb-2 my-4 px-4 "
-          type="submit"
-          value="Send"
-        />
-      </div>
-    </form>
-  );
-
-  */
 };
