@@ -51,10 +51,18 @@ function Glossary() {
     <div>
       <Analytics />
       <SpeedInsights />
-      <div className="nav-separator"></div>
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br className="d-none d-xl-block" />
+      <br />
+      <br className="d-flex d-md-none" />
+      <br className="d-flex d-md-none" />
 
-      <div className="d-flex flex-row">
-        <div className="mb-3 w-25">
+      <div className="d-flex flex-column flex-md-row mx-5">
+        <div className="mb-3">
           <input
             type="text"
             className="form-control"
