@@ -855,9 +855,11 @@ nav {
 
 .inputEmail {
   border: 2px solid rgb(234, 76, 137);
+  color: black;
 }
 .inputMessage {
   border: 2px solid rgb(234, 76, 137);
+  color: black;
 }
 /*
 COLORS:
