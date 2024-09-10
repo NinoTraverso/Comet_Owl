@@ -6,7 +6,6 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_KEY,
@@ -65,4 +64,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm; // Default export
+export default ContactForm;
