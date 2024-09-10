@@ -691,7 +691,7 @@ nav {
   padding: 10px 16px;
   position: relative;
   text-decoration: none;
-  transition: color 100ms;
+  transition: color 300ms;
   vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
@@ -701,6 +701,66 @@ nav {
 .idSsearchButton:hover,
 .idSsearchButton:focus {
   background-color: #f082ac;
+}
+
+.NextPageButton {
+  background-color: #363062;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.NextPageButtonn:hover,
+.NextPageButtonn:focus {
+  background-color: #4d4c7d;
+}
+
+.PrevPageButton {
+  background-color: #363062;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.PrevPageButtonn:hover,
+.PrevPageButtonn:focus {
+  background-color: #4d4c7d;
 }
 
 /*  LOADING DOTS WHILE EXOPLANETS LIST IS BEING GENERATED */
