@@ -874,7 +874,7 @@ PINK: #EA4C89 (234, 76, 137)
 #contactFormButton {
   border-style: none;
   border-radius: 12px;
-  background-color: #ea4c89;
+  background-color: #00a3c3;
   color: #ffffff;
   height: 40px;
   line-height: 20px;
@@ -885,7 +885,8 @@ PINK: #EA4C89 (234, 76, 137)
 
 #contactFormButton:hover {
   border-radius: 6px;
-  background-color: #71d9f0;
+  background-color: #ea4c89;
+  color: #ffffff;
 }
 
 /*------------------------------------------------------------------ COMING SOON -----------------------------------------------*/
