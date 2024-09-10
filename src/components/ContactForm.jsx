@@ -31,20 +31,17 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail}>
       <div
         id="contactFormContainer"
-        className="d-flex flex-column justify-content-center align-items-start p-3"
+        className="d-flex flex-column justify-content-center align-items-center p-3 mx-auto"
       >
-        <div className="align-self-center">
-          <img src="/assets/iconEmail.svg" alt="" />
-        </div>
         <input
-          className="inputName w-50 my-4 rounded"
+          className="inputName w-75 my-4 rounded"
           type="text"
           name="user_name"
           placeholder="  Your name"
           required
         />
         <input
-          className="inputEmail w-50 my-4 rounded"
+          className="inputEmail w-75 my-4 rounded"
           type="email"
           name="user_email"
           placeholder="  Your email"
@@ -59,12 +56,13 @@ export const ContactUs = () => {
         />
 
         <input
-          id="submitButton"
-          className="align-self-start pt-2 pb-2 px-4 "
+          id="contactFormButton"
+          className="align-self-center pt-2 pb-2 my-4 px-4 "
           type="submit"
           value="Send"
         />
       </div>
+          
     </form>
   );
 };
