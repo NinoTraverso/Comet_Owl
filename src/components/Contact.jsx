@@ -1,7 +1,7 @@
 import React from "react";
 import Analytics from "./Analytics";
 import SpeedInsights from "./SpeedInsights";
-import { ContactForm } from "./ContactForm";
+import { ContactUs } from "./ContactForm";
 
 function Contact() {
   return (
@@ -29,7 +29,9 @@ function Contact() {
           >
             CONTACT
           </h1>
-          <ContactForm />
+        </div>
+        <div className="w-75 mx-5 mt-3 mb-5">
+          <ContactUs />
         </div>
       </div>
       <br></br>
