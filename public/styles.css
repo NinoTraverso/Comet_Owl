@@ -730,7 +730,7 @@ nav {
 
 .NextPageButtonn:hover,
 .NextPageButtonn:focus {
-  background-color: #4d4c7d;
+  background-color: #6c6baf;
 }
 
 .PrevPageButton {
@@ -760,7 +760,7 @@ nav {
 
 .PrevPageButtonn:hover,
 .PrevPageButtonn:focus {
-  background-color: #4d4c7d;
+  background-color: #6c6baf;
 }
 
 /*  LOADING DOTS WHILE EXOPLANETS LIST IS BEING GENERATED */
