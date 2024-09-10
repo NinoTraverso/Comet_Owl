@@ -30,16 +30,10 @@ function Contact() {
             CONTACT
           </h1>
         </div>
-        <div className="w-75 mx-5 mt-3 mb-5">
-          <ContactUs />
-        </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className="w-75 mx-5 mt-3 mb-5">
+        <ContactUs />
+      </div>
     </div>
   );
 }

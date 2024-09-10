@@ -62,7 +62,6 @@ export const ContactUs = () => {
           value="Send"
         />
       </div>
-          
     </form>
   );
 };
