@@ -44,7 +44,7 @@ function Exoplanets() {
     return (
       <div className="loadingHeight text-center d-flex align-items-center justify-content-center">
         <h2>
-          More than 9000+ exoplanet data is being loaded
+          More than 9000+ exoplanet data are being loaded
           <span className="introTextDotOne">.</span>
           <span className="introTextDotTwo">.</span>
           <span className="introTextDotThree">.</span>
