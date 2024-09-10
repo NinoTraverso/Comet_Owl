@@ -863,6 +863,24 @@ nav {
 }
 
 #contactFormButton {
+  background-color: #33cc22;
+  border: 2px solid rgb(228, 219, 36);
+  color: #f6fff7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border-radius: 20px;
+  transition: border-radius 1s ease;
+}
+
+#contactFormButton:hover {
+  background-color: rgb(228, 219, 36);
+  border: 2px solid #33cc22;
+  color: #010a02;
+  border-radius: 4px;
+}
+
+/*
+#contactFormButton {
   border-style: none;
   border-radius: 12px;
   background-color: #00a3c3;
@@ -871,15 +889,15 @@ nav {
   line-height: 20px;
   padding: 10px 16px;
   text-decoration: none;
-  transition: border-radius 0.6s ease, background-color 0.6s ease; /* Adjusted for smooth transition */
+  transition: border-radius 0.6s ease, background-color 0.6s ease; 
 }
-
 #contactFormButton:hover {
   border-radius: 6px;
   background-color: #ea4c89;
   color: #ffffff;
 }
 
+*/
 /*------------------------------------------------------------------ COMING SOON -----------------------------------------------*/
 
 #bgVideo {
