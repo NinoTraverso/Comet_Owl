@@ -847,6 +847,11 @@ nav {
   -webkit-backdrop-filter: blur(6.7px);
   border: 1px solid rgba(255, 255, 255, 0.73);
 }
+@media (max-width: 768px) {
+  #contactFormContainer {
+    max-width: 90%;
+  }
+}
 
 .inputName {
   border: 2px solid rgb(234, 76, 137);
