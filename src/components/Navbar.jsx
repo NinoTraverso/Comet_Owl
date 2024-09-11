@@ -68,27 +68,35 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/articles">
+                  <Link className="nav-link" to="/Articles">
                     <h4 className="mx-3">Articles</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/glossary">
+                  <Link className="nav-link" to="/Glossary">
                     <h4 className="mx-3">Glossary</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/exoplanets">
+                  <Link className="nav-link" to="/Exoplanets">
                     <h4 className="mx-3">Exoplanets</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/more">
+                  <Link className="nav-link" to="/More">
                     <h4 className="mx-3">More</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
+                  <Link
+                    className="nav-link"
+                    to="/contact"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">Contact</h4>
                   </Link>
                 </li>
