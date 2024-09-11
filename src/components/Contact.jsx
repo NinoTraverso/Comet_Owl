@@ -1,17 +1,13 @@
 import React from "react";
-import { ContactUs } from "./ContactForm";
+import { ContactUs } from "./ContactForm"; // Adjust the path if necessary
 
-function Contact() {
-  const currentYear = new Date().getFullYear();
-
+const Contact = () => {
   return (
-    <div className="d-flex flex-column justify-content-end mt-5">
-      <div className="nav-separator"></div>
-      <div className="w-75 mx-5 mt-3 mb-5">
-        <ContactUs />
-      </div>
+    <div>
+      <h1>Contact Us</h1>
+      <ContactUs />
     </div>
   );
-}
+};
 
 export default Contact;
