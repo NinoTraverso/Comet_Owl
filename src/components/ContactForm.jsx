@@ -19,11 +19,13 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          alert("Email sent successfully!"); // Show success alert
-          form.current.reset(); // Reset form after successful submission
+          console.log("EmailJS result:", result); // Log success response
+          alert("Email sent successfully!");
+          form.current.reset();
         },
         (error) => {
-          alert("Error sending email: " + error.text); // Show error alert
+          console.log("EmailJS error:", error); // Log error details
+          alert("Error sending email: " + error.text);
         }
       );
   };
