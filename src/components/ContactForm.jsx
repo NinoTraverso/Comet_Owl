@@ -12,10 +12,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "your_service_id", // Replace with your EmailJS service ID
-        "your_template_id", // Replace with your EmailJS template ID
+        process.env.REACT_APP_SERVICE_KEY,
+        process.env.REACT_APP_TEMPLATE_KEY,
         form.current,
-        "your_public_key" // Replace with your EmailJS public key
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
