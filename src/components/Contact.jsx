@@ -10,7 +10,7 @@ function Contact() {
       <SpeedInsights />
       <div className="nav-separator"></div>
       <div className="d-flex flex-column text-center align-items-center my-4">
-        <div className="w-75 mx-5 mt-3 mb-5">
+        <div className="w-100 mx-3 mt-3 mb-5">
           <h1
             id="contactTitle"
             className="sectionTitle d-none d-xl-block align-self-end"
@@ -31,7 +31,7 @@ function Contact() {
           </h1>
         </div>
       </div>
-      <div className="w-75 mx-5 mt-3 mb-5">
+      <div className="w-100 mx-3 mt-3 mb-5">
         <ContactUs />
       </div>
     </div>
