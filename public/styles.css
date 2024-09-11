@@ -37,7 +37,7 @@ body {
 
 .nav-separator {
   width: 100%;
-  height: 36vh;
+  height: 26vh;
 }
 
 .separator {
@@ -839,13 +839,29 @@ nav {
 }
 
 #contactFormContainer {
-  max-width: 600px;
+  width: 600px;
   background: rgba(255, 255, 255, 0.16);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.787);
   backdrop-filter: blur(6.7px);
   -webkit-backdrop-filter: blur(6.7px);
   border: 1px solid rgba(255, 255, 255, 0.73);
+}
+
+@media screen and (max-width: 700px) {
+  #contactFormContainer {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #contactFormContainer {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #contactFormContainer {
+    width: 250px;
+  }
 }
 
 .inputName {
