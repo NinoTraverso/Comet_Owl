@@ -7,15 +7,14 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Add alert to check if form is submitting
     alert("Form submit triggered");
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_KEY, // Ensure this is correctly set in .env
-        process.env.REACT_APP_TEMPLATE_KEY, // Ensure this is correctly set in .env
-        form.current, // This should be the form reference
-        process.env.REACT_APP_PUBLIC_KEY // Ensure this is correctly set in .env
+        process.env.REACT_APP_SERVICE_KEY,
+        process.env.REACT_APP_TEMPLATE_KEY,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
