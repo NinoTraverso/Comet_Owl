@@ -7,9 +7,6 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Add alert to check if form is submitting
-    alert("Form submit triggered");
-
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_KEY,
@@ -19,34 +16,51 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log("EmailJS result:", result); // Log success response
-          alert("Email sent successfully!");
+          console.log(result.text);
+          alert("Message Sent!");
+
           form.current.reset();
         },
         (error) => {
-          console.log("EmailJS error:", error); // Log error details
-          alert("Error sending email: " + error.text);
+          console.log(error.text);
         }
       );
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} enctype="multipart/form-data">
-      <div id="contactFormContainer" className="form-container">
-        <input type="text" name="user_name" placeholder="Your name" required />
+    <form ref={form} onSubmit={sendEmail}>
+      <div
+        id="contactFormContainer"
+        className="d-flex flex-column justify-content-center align-items-center p-3 mx-auto"
+      >
         <input
+          className="inputName w-75 my-4 rounded"
+          type="text"
+          name="user_name"
+          placeholder="  Your name"
+          required
+        />
+        <input
+          className="inputEmail w-75 my-4 rounded"
           type="email"
           name="user_email"
-          placeholder="Your email"
+          placeholder="  Your email"
           required
         />
         <textarea
+          className="inputMessage w-75 my-4 rounded"
           name="message"
           maxLength="500"
-          placeholder="Write your message..."
+          placeholder="  Write your message..."
           required
         />
-        <input type="submit" value="Send" />
+
+        <input
+          id="contactFormButton"
+          className="align-self-center pt-2 pb-2 my-4 px-4 "
+          type="submit"
+          value="Send"
+        />
       </div>
     </form>
   );
