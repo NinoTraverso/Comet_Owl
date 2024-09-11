@@ -7,12 +7,6 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("Sending email with:", {
-      serviceID: process.env.REACT_APP_SERVICE_KEY,
-      templateID: process.env.REACT_APP_TEMPLATE_KEY,
-      publicKey: process.env.REACT_APP_PUBLIC_KEY,
-    });
-
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_KEY,
@@ -21,29 +15,59 @@ export const ContactUs = () => {
         process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
-        () => {
-          alert("Message sent successfully!");
-          form.current.reset(); // Optional: reset the form after successful submission
+        (result) => {
+          console.log(result.text);
+          alert("Message Sent!");
+
+          form.current.reset();
         },
         (error) => {
-          alert("Error sending message. Please try again later.");
-          console.error("FAILED...", error.text);
+          console.log(error.text);
         }
       );
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label htmlFor="name">Name</label>
-      <input type="text" name="user_name" id="name" required />
+    <div>
+      <div className="nav-separator"></div>
+      <form ref={form} onSubmit={sendEmail}>
+        <div
+          id="contactFormContainer"
+          className="d-flex flex-column justify-content-center align-items-start p-3"
+        >
+          <div className="align-self-center">
+            <img src="/assets/iconEmail.svg" alt="" />
+          </div>
+          <input
+            className="inputName w-50 my-4 rounded"
+            type="text"
+            name="user_name"
+            placeholder="  Your name"
+            required
+          />
+          <input
+            className="inputEmail w-50 my-4 rounded"
+            type="email"
+            name="user_email"
+            placeholder="  Your email"
+            required
+          />
+          <textarea
+            className="inputMessage w-75 my-4 rounded"
+            name="message"
+            maxLength="500"
+            placeholder="  Write your message..."
+            required
+          />
 
-      <label htmlFor="email">Email</label>
-      <input type="email" name="user_email" id="email" required />
-
-      <label htmlFor="message">Message</label>
-      <textarea name="message" id="message" required />
-
-      <input type="submit" value="Send" />
-    </form>
+          <input
+            id="submitButton"
+            className="align-self-start pt-2 pb-2 px-4 "
+            type="submit"
+            value="Send"
+          />
+        </div>
+      </form>
+    </div>
   );
 };
