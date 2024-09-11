@@ -5,6 +5,7 @@ import Analytics from "./Analytics";
 import SpeedInsights from "./SpeedInsights";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Analytics />
       <SpeedInsights />
+      <Contact />
       <Footer />
     </div>
   );
