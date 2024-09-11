@@ -7,37 +7,45 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Add alert to check if form is submitting
+    alert("Form submit triggered");
+
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_KEY,
-        process.env.REACT_APP_TEMPLATE_KEY,
+        "your_service_id", // Replace with your EmailJS service ID
+        "your_template_id", // Replace with your EmailJS template ID
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        "your_public_key" // Replace with your EmailJS public key
       )
       .then(
         (result) => {
-          console.log(result.text);
-          alert("Message Sent!");
-
-          form.current.reset();
+          alert("Email sent successfully!"); // Show success alert
+          form.current.reset(); // Reset form after successful submission
         },
         (error) => {
-          console.log(error.text);
+          alert("Error sending email: " + error.text); // Show error alert
         }
       );
   };
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="user_name" placeholder="Your name" required />
-      <input type="email" name="user_email" placeholder="Your email" required />
-      <textarea
-        name="message"
-        maxLength="500"
-        placeholder="Write your message..."
-        required
-      />
-      <input type="submit" value="Send" />
+      <div id="contactFormContainer" className="form-container">
+        <input type="text" name="user_name" placeholder="Your name" required />
+        <input
+          type="email"
+          name="user_email"
+          placeholder="Your email"
+          required
+        />
+        <textarea
+          name="message"
+          maxLength="500"
+          placeholder="Write your message..."
+          required
+        />
+        <input type="submit" value="Send" />
+      </div>
     </form>
   );
 };
