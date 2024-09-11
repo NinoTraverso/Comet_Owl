@@ -7,60 +7,45 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Add alert to check if form is submitting
+    alert("Form submit triggered");
+
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_KEY,
-        process.env.REACT_APP_TEMPLATE_KEY,
-        form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        process.env.REACT_APP_SERVICE_KEY, // Ensure this is correctly set in .env
+        process.env.REACT_APP_TEMPLATE_KEY, // Ensure this is correctly set in .env
+        form.current, // This should be the form reference
+        process.env.REACT_APP_PUBLIC_KEY // Ensure this is correctly set in .env
       )
       .then(
         (result) => {
-          console.log(result.text);
-          alert("Message Sent!");
-
+          alert("Email sent successfully!");
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          alert("Error sending email: " + (error.text || "Unknown error"));
+          console.error("Detailed error:", error);
         }
       );
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <div
-        id="contactFormContainer"
-        className="d-flex flex-column justify-content-center align-items-center p-3 mx-auto"
-      >
+    <form ref={form} onSubmit={sendEmail} id="contact-form">
+      <div id="contactFormContainer" className="form-container">
+        <input type="text" name="user_name" placeholder="Your name" required />
         <input
-          className="inputName w-75 my-4 rounded"
-          type="text"
-          name="user_name"
-          placeholder="  Your name"
-          required
-        />
-        <input
-          className="inputEmail w-75 my-4 rounded"
           type="email"
           name="user_email"
-          placeholder="  Your email"
+          placeholder="Your email"
           required
         />
         <textarea
-          className="inputMessage w-75 my-4 rounded"
           name="message"
           maxLength="500"
-          placeholder="  Write your message..."
+          placeholder="Write your message..."
           required
         />
-
-        <input
-          id="contactFormButton"
-          className="align-self-center pt-2 pb-2 my-4 px-4 "
-          type="submit"
-          value="Send"
-        />
+        <input type="submit" value="Send" />
       </div>
     </form>
   );
