@@ -55,7 +55,7 @@ export const ContactUs = () => {
           required
         />
 
-        <input
+        <button
           id="contactFormButton"
           className="align-self-center pt-2 pb-2 my-4 px-4 "
           type="submit"
