@@ -31,7 +31,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} enctype="multipart/form-data">
       <div id="contactFormContainer" className="form-container">
         <input type="text" name="user_name" placeholder="Your name" required />
         <input
