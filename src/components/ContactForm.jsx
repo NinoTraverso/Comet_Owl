@@ -7,6 +7,12 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    console.log("Sending email with:", {
+      serviceID: process.env.REACT_APP_SERVICE_KEY,
+      templateID: process.env.REACT_APP_TEMPLATE_KEY,
+      publicKey: process.env.REACT_APP_PUBLIC_KEY,
+    });
+
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_KEY,
@@ -21,7 +27,7 @@ export const ContactUs = () => {
         },
         (error) => {
           alert("Error sending message. Please try again later.");
-          console.log("FAILED...", error.text);
+          console.error("FAILED...", error.text);
         }
       );
   };
