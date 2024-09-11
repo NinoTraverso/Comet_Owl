@@ -63,27 +63,67 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">
+                  <Link
+                    className="nav-link"
+                    to="/Home"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">Home</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Articles">
+                  <Link
+                    className="nav-link"
+                    to="/Articles"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">Articles</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Glossary">
+                  <Link
+                    className="nav-link"
+                    to="/Glossary"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">Glossary</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Exoplanets">
+                  <Link
+                    className="nav-link"
+                    to="/Exoplanets"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">Exoplanets</h4>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/More">
+                  <Link
+                    className="nav-link"
+                    to="/More"
+                    onClick={() =>
+                      document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show")
+                    }
+                  >
                     <h4 className="mx-3">More</h4>
                   </Link>
                 </li>
