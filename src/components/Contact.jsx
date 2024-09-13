@@ -11,6 +11,7 @@ const Contact = () => {
       <div className="form-container">
         <ContactUs />
       </div>
+      <div className="d-none d-xl-block separator"></div>
     </div>
   );
 };
