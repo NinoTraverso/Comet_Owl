@@ -95,7 +95,7 @@ const articles = [
     frontImage:
       "./assets/articleImages/theImportanceOfAstronomy/theImportanceOfAstronomy.jpg",
     introduction:
-      "Astronomy has been exponentially developing over the course of time and has been a tool used for our survival since the rise of mankind. It was used for predicting events on Earth, navigate the globe, anticipate astronomical events, and much more.",
+      "Astronomy has been exponentially developing over the course of time and has been a tool used for our survival since the rise of mankind. It was used for predicting events on Earth, navigate the globe, understand about our planet and the Solar System it resides in, and much more.",
     textOne: "",
     illustrationOne:
       "./assets/articleImages/theImportanceOfAstronomy/groundSatellite.jpg",
