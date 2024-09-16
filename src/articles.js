@@ -110,7 +110,7 @@ const articles = [
     conlcusionImage:
       "./assets/articleImages/theImportanceOfAstronomy/spaceFlashlight.jpg",
     conclusion:
-      "Astronomy allows us to understand the universe we live in. This field has helped us create instruments to be able to study the universe around us. We have been able to prove many scientific theories, such as Einstein’s prediction of how a black hole would look like. We were able to discover extra-solar planets orbiting alien stars, and we are able to predict what will happen to our Sun. Astronomy is not only useful to our technological, scientific, and cultural development but it is also necessary to our survival.",
+      "Astronomy allows us to understand the universe we live in. This field has helped us create instruments to study the universe around us. We have been able to prove many scientific theories, such as Einstein’s prediction of how a black hole would look like. We were able to discover extra-solar planets orbiting alien stars, and we are able to predict what will happen to our Sun. Astronomy is not only useful to our technological, scientific, and cultural development but it is also necessary to our survival.",
     references: "",
     author: "N.J.T.",
   },
