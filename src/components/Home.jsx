@@ -210,7 +210,7 @@ function Home() {
                       <p>Radius: 1,737.4 km</p>
                       <p>Distance from Sun: 1 AU</p>
                       <p>
-                        Composition: Oxygen, Sipcon, Manesium, Iron, Calcium,
+                        Composition: Oxygen, Silicon, Manesium, Iron, Calcium,
                         Aluminum, Titanium, Uranium, Potassium, Hydrogen..
                       </p>
                       <p>Atmosphere: Helium, neon, argon and hydrogen.</p>
