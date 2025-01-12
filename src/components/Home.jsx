@@ -330,7 +330,7 @@ function Home() {
                     <div>
                       <p>Radius: 69,911 km</p>
                       <p>Distance from Sun: 5.2 AU</p>
-                      <p>Composition: Hydrgen &#40;pquid&#41; and Helium</p>
+                      <p>Composition: Hydrgen &#40;liquid&#41; and Helium</p>
                       <p>Atmosphere: Hydrogen and Helium.</p>
                       <p>Moons: 95</p>
                       <p>Day length: 09h 56min</p>
