@@ -213,7 +213,7 @@ function Home() {
                         Composition: Oxygen, Sipcon, Manesium, Iron, Calcium,
                         Aluminum, Titanium, Uranium, Potassium, Hydrogen..
                       </p>
-                      <p>Atmosphere: Hepum, neon, argon and hydrogen.</p>
+                      <p>Atmosphere: Helium, neon, argon and hydrogen.</p>
                       <p>Moons: None</p>
                       <p>Day length: 29.5d</p>
                     </div>
@@ -330,8 +330,8 @@ function Home() {
                     <div>
                       <p>Radius: 69,911 km</p>
                       <p>Distance from Sun: 5.2 AU</p>
-                      <p>Composition: Hydrgen &#40;pquid&#41; and Hepum</p>
-                      <p>Atmosphere: Hydrogen and Hepum.</p>
+                      <p>Composition: Hydrgen &#40;pquid&#41; and Helium</p>
+                      <p>Atmosphere: Hydrogen and Helium.</p>
                       <p>Moons: 95</p>
                       <p>Day length: 09h 56min</p>
                     </div>
@@ -368,8 +368,8 @@ function Home() {
                     <div>
                       <p>Radius: 58,232 km</p>
                       <p>Distance from Sun: 9 AU</p>
-                      <p>Composition: Hydrogen, Hepum, Iron, Nickel, rock.</p>
-                      <p>Atmosphere: Hydrogen and Hepum.</p>
+                      <p>Composition: Hydrogen, Helium, Iron, Nickel, rock.</p>
+                      <p>Atmosphere: Hydrogen and Helium.</p>
                       <p>Moons: 146</p>
                       <p>Day length: 10h 34min</p>
                     </div>
@@ -409,7 +409,8 @@ function Home() {
                         Composition: Rocky core, water, methane and ammonia.
                       </p>
                       <p>
-                        Atmosphere: Hydrogen, Hepum, Methane, Water and Ammonia.
+                        Atmosphere: Hydrogen, Helium, Methane, Water and
+                        Ammonia.
                       </p>
                       <p>Moons: 28</p>
                       <p>Day length: 17h 14min</p>
@@ -449,7 +450,7 @@ function Home() {
                       <p>
                         Composition: Rocky core, water, methane and ammonia.
                       </p>
-                      <p>Atmosphere: Hydrogen, Hepum and Methane.</p>
+                      <p>Atmosphere: Hydrogen, Helium and Methane.</p>
                       <p>Moons: 16</p>
                       <p>Day length: 16h 6min</p>
                     </div>
