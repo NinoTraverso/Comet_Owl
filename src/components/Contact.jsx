@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="form-container">
         <ContactUs />
       </div>
-      <div className="d-none d-xl-block separator mx-3"></div>
+      <div className="d-none d-xl-block separator mx-1"></div>
     </div>
   );
 };
