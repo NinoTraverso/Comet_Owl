@@ -86,7 +86,7 @@ const articles = [
     conclusion:
       "So, should we go to Mars? The answer, in my opinion, is yes, but the current technology, as well as the social and political implications, suggest it is still too early to take such a big step. Moving to Mars would mean learning how to terraform an entire, sterile, new world, and currently, we can barely keep control over our own planet (the ozone layer hole, pollution, global warming…). Are we really ready for this kind of journey?",
     references: "",
-    author: "N.J.T.",
+    author: "Nino J. Traverso",
   },
 
   {
@@ -112,7 +112,7 @@ const articles = [
     conclusion:
       "Astronomy allows us to understand the universe we live in. This field has helped us create instruments to study the universe around us. We have been able to prove many scientific theories, such as Einstein’s prediction of how a black hole would look. We have also discovered exoplanets orbiting alien stars and predicted what will happen to our Sun. Astronomy is not only useful for our technological, scientific, and cultural development, but it is also necessary for our survival.",
     references: "",
-    author: "N.J.T.",
+    author: "Nino J. Traverso",
   },
 
   {
@@ -140,7 +140,43 @@ const articles = [
       "Currently, these two methods seem to be the most promising, but further studies, methods, and research must be done in order to develop a proper planetary defence strategy to protect our planet from such threats. A planetary defence system is key to safeguarding our planet and protecting the life it hosts.",
     references:
       "Lubin P., Cohen AN, (2023) ‘Asteroid interception and disruption for terminal planetary defense’, Advances in Space Research, vol 71 (issue 3), page 1827-1839. Available at: https://www.sciencedirect.com/science/article/pii/S0273117722009395 (Accessed on: September 9, 2024)_________NASA/Johns Hopkins APL (2024), ‘Illustration of DART 2 – Illustration of  DART, from behind the NEXT-C ion engine’ [Digital Art], Available at: https://dart.jhuapl.edu/Gallery/index.php (Accessed on: September 9, 2024)",
-    author: "N.J.T.",
+    author: "Nino J. Traverso",
+  },
+  {
+    id: 4,
+    title: "How do we find exoplanets?",
+    frontImage: "./assets/articleImages/howDoWeFindExoplanets/exoplanets.jpg",
+    introduction:
+      "Since the first discovery of exoplanet, back in 1992 of 51 Pegasi b [1], we’ve come to discover nearly 6,000 alien worlds in our galaxy [2]. Not only the number of discovered exoplanets increased exponentially over the years, so did the detection methods. Like in our Solar System, some of these might be rocky-like planets, others could be gas giants like Jupiter and Saturn, while other might be closer to Ice Giants like Uranus and Neptune. In this article we’ll explore the different detection methods used by scientists to discoveries alien worlds outside our own Solar System, and the types of planets discovered using these different methodologies. There are five main methods to detect exoplanets: 1.	Transit method - 4,342 discoveries 2.	Radial velocity - 1,098 discoveries (including 51 Pegasi b) 3.	Gravitational Microlensing - 235 discoveries 4.	Direct Imaging – 82 discoveries 5.	Astrometry – 3 discoveries [3].",
+    textOne:
+      "The Radial Velocity method, which involves observing spectrum shifts in the star’s brightness caused by the Doppler Effect. Generally speaking, a star is the centre of the system with planets orbiting around it (like the Sun and our planets). Planets though do have masses, especially giant ones like Saturn and Jupiter which, obviously, exert some sort of gravitational pull over the star (even if small). This cause the star to “move” a little bit towards that force, meaning that in the opposite direction it will appear, for a certain amount of time, that the star is moving “away” from us causing it’s spectrum to slightly shift towards red. This happens because the as it moves aways the star’s light wavelengths are being “stretched” and become longer, getting slightly closer towards the lower band of the light spectrum. The same happens when the observer is “on the other side” of the star where the planet is exerting force, “squeezing” the light’s wavelengths and making its spectrum move more towards the higher band of light. Astronomers call this effect “Blue shift” and “Red shift”, caused by the Doppler Effect, which tells us if an object is moving aways or towards us, the observers.",
+    illustrationOne:
+      "./assets/articleImages/howDoWeFindExoplanets/transitExoplanet.jpg",
+    textTwo:
+      "The transit method involves observing a star’s brightness and, if an exoplanet orbiting it passes partially or completely in front of it (compared to us, the observers). A dip will then appear in the overall observed brightness of the star confirming the presence of an exoplanet orbiting the star. A transiting exoplanet can tell us its surface temperature, size and atmosphere [4]. The reason why we can get information about its atmosphere is because each star has a spectrum which tells us their composition. As we observe the transiting exoplanet, we can measure the star’s spectrum and compared it before and during the dip, which can tell us valuable information about the planet’s atmospheric composition.",
+    illustrationTwo:
+      "./assets/articleImages/howDoWeFindExoplanets/gravitationalMicrolensing.jpg",
+    textThree:
+      "Gravitational Microlensing involves observing two stars – one brighter star, that we’ll call A, and another, dimmer star we’ll call B. As B orbits A it can cause a Microlensing effect (space-time distortion) allowing instruments to measure A’s  brightness. As B stars passing in front of A, A’s brightness will start to increase due to the Microlensing Effect, reaching a peak when B is right “in front” and then decreasing as it continues on its orbit. Plotting a graph of the brightness over time, a bell curved shape will appear. In the case where an exoplanet orbits B, during the time that is passes in front of A, the exoplanet the change the bell curve shaped graph showing a small, short increase in A’s brightness during B’s passage, allowing us not only to detect exoplanets. [5]",
+    textFour:
+      "Direct Imagining, as the name suggests, allows us to directly image the exoplanet orbiting its parent star. (IMAGE) Like the planets in our solar system reflect light coming from the Sun, allowing us to see them even by the naked eye, the same can occur on extrasolar systems where a planet can reflect its star light allowing us to see them through, as the name of the method suggests, directly observe and image them.",
+    conlcusionImage:
+      "./assets/articleImages/howDoWeFindExoplanets/exoplanetDoublestar.jpg",
+    conclusion:
+      "Lastly, Astrometry has so far allowed us to discover three exoplanets [3] by observing a star’s motion in the sky compared to others. If a wobble is noticed while observing a star compared to nearby stars, we can determine the presence of an exoplanet. Although this method has provided “only” the discovery of three exoplanets, one of these was in fact Pegasi b, the first exoplanet ever discovered which has then led to a whole astronomy branch. With approximately 100 billion stars in the Milky Way, we are surely on the road to make thousands of discoveries in the near future, enhancing our knowledge of extrasolar systems and our understanding of the universe.",
+    references:
+      "[1] Wikipedia, “51 Pegasi b,” 20 January 2025. [Online]. Available: " +
+      "https://en.wikipedia.org/wiki/51_Pegasi_b. [Accessed 30 January 2025].\n" +
+      "[2] NASA, ipac, NExScl, Caltech, “Nasa Exoplanet Archive,” n.d. [Online]. Available: " +
+      "https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html. [Accessed 30 January 2025].\n" +
+      "[3] NASA, “5 Ways to Find a Planet,” n.d. [Online]. Available: " +
+      "https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/?intent=021. [Accessed 30 January 2025].\n" +
+      "[4] LCO - Las Cumbres Observatory, “Transit Method,” n.d. [Online]. Available: " +
+      "https://lco.global/spacebook/exoplanets/transit-method/. [Accessed 30 January 2025].\n" +
+      "[5] LCO - Las Cumbres Observatory, “Gravitational Microlensing,” n.d. [Online]. Available: " +
+      "https://lco.global/spacebook/exoplanets/gravitational-microlensing/. [Accessed 30 January 2025].",
+
+    author: "Nino J. Traverso - 10/02/2025",
   },
 ];
 
