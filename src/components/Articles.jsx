@@ -38,20 +38,6 @@ function Articles() {
       <div className="nav-separator"></div>
 
       <div>
-        {/*
-        <h1 id="articles" className="d-none d-xl-block mt-5">
-          ARTICLES
-        </h1>
-        <h1
-          id="articles"
-          className="d-none d-md-block d-xl-none text-center mt-5"
-        >
-          ARTICLES
-        </h1>
-        <h1 id="articles" className="d-block d-md-none text-center mt-5">
-          ARTICLES
-        </h1>
-        */}
         <div className="column mb-5 mx-1 d-flex flex-column align-items-center">
           {articles.slice().reverse().map(createArticleCard)}
         </div>
