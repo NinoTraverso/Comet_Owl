@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import articles from "../articles";
 
@@ -7,6 +7,13 @@ function ArticlePage() {
   const id = searchParams.get("id");
 
   const article = articles.find((a) => a.id === parseInt(id));
+
+  useEffect(() => {
+    const element = document.querySelector(".nav-separator");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, []);
 
   if (!article) {
     return <h2 className="text-center my-5">Article not found</h2>;
