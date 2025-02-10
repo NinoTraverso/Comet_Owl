@@ -84,7 +84,7 @@ const articles = [
     conlcusionImage:
       "./assets/articleImages/canWeColonizeMars/marsAstronaut.jpg",
     conclusion:
-      "So, should we go to Mars? The answer, in my opinion, is yes, but the current technology, as well as the social and political implications, suggest it is still too early to take such a big step. Moving to Mars would mean learning how to terraform an entire, sterile, new world, and currently, we can barely keep control over our own planet (the ozone layer hole, pollution, global warming…). Are we really ready for this kind of journey?",
+      "So, should we go to Mars? The current technology, as well as the social and political implications may suggest it is still too early to take such a big step. Moving to Mars would mean learning how to terraform an entire, sterile, new world, and currently, we can barely keep control over our own planet (the ozone layer hole, pollution, global warming…). Are we really ready for this kind of journey?",
     references: "",
     author: "Nino J. Traverso",
   },
