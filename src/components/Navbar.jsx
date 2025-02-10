@@ -5,7 +5,6 @@ import Home from "./Home";
 import Glossary from "./Glossary";
 import Articles from "./Articles";
 import ArticlePage from "./ArticlePage.jsx";
-import articles from "../articles.js";
 import Exoplanets from "./Exoplanets.jsx";
 import More from "./More.jsx";
 import Contact from "./Contact.jsx";
@@ -150,10 +149,8 @@ function Navbar() {
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Articles" element={<Articles />} />
-          <Route
-            path="/articles/:id"
-            element={<ArticlePage articles={articles} />}
-          />
+          <Route path="/articles/:title" element={<ArticlePage />} />
+
           <Route path="/Glossary" element={<Glossary />} />
           <Route path="/Exoplanets" element={<Exoplanets />} />
           <Route path="/More" element={<More />} />

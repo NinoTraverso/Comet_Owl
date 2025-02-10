@@ -1,30 +1,29 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function ArticleCard(props) {
+function ArticleCard({ id, title, frontImage }) {
   const navigate = useNavigate();
 
+  const slug = title
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]/g, "");
+
   const handleClick = () => {
-    navigate(`/articles/${props.id}`);
+    navigate(`/articles/${slug}?id=${id}`);
   };
 
   return (
     <div
       id="articleCard"
-      className={`article article${props.id}`}
+      className={`article article${id}`}
       onClick={handleClick}
       style={{ cursor: "pointer" }}
     >
       <div className="article-content d-flex flex-column justify-content-center align-items-center">
-        <h1 className="name articleName text-center my-4">
-          {props.title || ""}
-        </h1>
+        <h1 className="name articleName text-center my-4">{title}</h1>
         <div id="frontImage" className="image-container">
-          <img
-            src={props.frontImage || ""}
-            alt={props.title || ""}
-            className="article-image"
-          />
+          <img src={frontImage} alt={title} className="article-image" />
         </div>
       </div>
     </div>

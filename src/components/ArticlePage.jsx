@@ -1,9 +1,11 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import articles from "../articles"; // Ensure this is correctly imported
+import { useSearchParams } from "react-router-dom";
+import articles from "../articles";
 
 function ArticlePage() {
-  const { id } = useParams();
+  const [searchParams] = useSearchParams();
+  const id = searchParams.get("id");
+
   const article = articles.find((a) => a.id === parseInt(id));
 
   if (!article) {
