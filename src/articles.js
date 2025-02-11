@@ -49,6 +49,7 @@ ARTICLE FORMAT
 {
 id: number,
 title: "".
+briefing: "".
 frontImage: "".
 introduction: "",
 background: "",
@@ -68,6 +69,8 @@ const articles = [
   {
     id: 1,
     title: "Can we colonize Mars?",
+    briefing:
+      "Mars colonization faces immense challenges, from harsh conditions to limited resources. Surviving there would require heavy dependence on Earth, making the mission costly and risky.",
     frontImage: "../assets/articleImages/canWeColonizeMars/marsSpaceship.jpg",
     introduction:
       "For the past few years, space agencies have been planning to colonize Mars in the near future, with the first mission estimated to launch in the 2030s. Although colonizing other planets is becoming closer to reality than to science fiction, going to Mars would not be beneficial.",
@@ -94,6 +97,8 @@ const articles = [
     title: "The importance of Astronomy",
     frontImage:
       "../assets/articleImages/theImportanceOfAstronomy/theImportanceOfAstronomy.jpg",
+    briefing:
+      "Discover how astronomy not only unlocks the mysteries of the universe but also fuels groundbreaking technology like GPS and MRI. Learn why this field is crucial for both our survival and understanding of the cosmos.",
     introduction:
       "Astronomy has been exponentially developing over time and has been a tool used for our survival since the rise of mankind. It was used for predicting events on Earth, navigating the globe, understanding our planet and the Solar System it resides in, and much more.",
     textOne: "",
@@ -120,6 +125,8 @@ const articles = [
     title: "Is Earth defenceless against asteroids and comets?",
     frontImage:
       "../assets/articleImages/isEarthDefenslessAgainstAsteroidsAndComets/meteorCrashing.jpg",
+    briefing:
+      "NASA's DART mission and the new Pulverize-It method offer promising ways to prevent catastrophic asteroid impacts on Earth. With further research, these strategies could help safeguard our planet from space threats.",
     introduction:
       "Imagine coming back from work one day, having dinner, and then enjoying some TV time when your favorite show is suddenly interrupted by breaking news: a space object with a 10 km radius will hit Earth in less than a year, resulting in a global extinction event. Panic would probably be the first response, as you might think there is not much we can do to prevent this catastrophe… but are we truly powerless against such threats?",
     textOne:
@@ -146,6 +153,8 @@ const articles = [
     id: 4,
     title: "How do we find exoplanets?",
     frontImage: "../assets/articleImages/howDoWeFindExoplanets/exoplanets.jpg",
+    briefing:
+      "Ever wondered how astronomers discover distant worlds beyond our Solar System? From tracking tiny shifts in starlight to directly imaging alien planets, these methods reveal the secrets of planets orbiting distant stars, expanding our understanding of the universe.",
     introduction:
       "Since the first exoplanet discovery, back in 1992 of 51 Pegasi b [1], we’ve come to discover nearly 6,000 alien worlds in our galaxy [2]. Not only the number of discovered exoplanets increased exponentially over the years, so did the detection methods. Like in our Solar System, some of these might be rocky-like planets, others could be gas giants like Jupiter and Saturn, while other might be closer to Ice Giants like Uranus and Neptune. In this article we’ll explore the different detection methods used by scientists to discover alien worlds outside our own Solar System, and the types of planets discovered using these different methodologies. There are five main methods to detect exoplanets: 1.	Transit method - 4,342 discoveries 2.	Radial velocity - 1,098 discoveries (including 51 Pegasi b) 3.	Gravitational Microlensing - 235 discoveries 4.	Direct Imaging – 82 discoveries 5.	Astrometry – 3 discoveries [3].",
     textOne:

@@ -13,8 +13,9 @@ function createArticleCard(article) {
       <ArticleCard
         id={article.id}
         title={article.title}
-        frontImage={article.frontImage}
         introduction={article.introduction}
+        frontImage={article.frontImage}
+        briefing={article.briefing}
         textOne={article.textOne}
         textTwo={article.textTwo}
         illustrationOne={article.illustrationOne}
