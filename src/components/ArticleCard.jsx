@@ -21,7 +21,7 @@ function ArticleCard({ id, title, frontImage }) {
       style={{ cursor: "pointer" }}
     >
       <div className="article-content d-flex flex-column justify-content-center align-items-center">
-        <h1 className="name articleName text-center my-4">{title}</h1>
+        <h2 className="name articleName text-center my-4">{title}</h2>
         <div id="frontImage" className="image-container">
           <img src={frontImage} alt={title} className="article-image" />
         </div>
