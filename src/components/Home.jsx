@@ -85,7 +85,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3">Mercury</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Mercury</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       Closest planet to the Sun, with an average surface
@@ -121,7 +121,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Venus</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Venus</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       Second planet in our Solar System and has the hottest
@@ -160,7 +160,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Earth</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Earth</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       Our home planet, with an average temperature of 15&deg; C
@@ -200,7 +200,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Moon</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Moon</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       The only satellite of Earth, and due to its surface
@@ -239,7 +239,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Mars</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Mars</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       Fourth planet in our Solar System and has an average
@@ -279,7 +279,9 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Asteroid Belt</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">
+                    Asteroid Belt
+                  </h1>
                   <span className="inTextCard">
                     <h6 className="py-3">
                       This is the zone between Mars and Jupiter where we can
@@ -319,7 +321,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Jupiter</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Jupiter</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       This is the largest planet in the solar system, with four
@@ -357,7 +359,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Saturn</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Saturn</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       Second largest planet in the Solar System, famously known
@@ -395,7 +397,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Uranus</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Uranus</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       This is the seventh planet in our Solar System and has
@@ -437,7 +439,7 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Neptune</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">Neptune</h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       This is the eighth and last planet in the Solar System,
@@ -476,7 +478,9 @@ function Home() {
                 </div>
 
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-md-start mx-5">
-                  <h1 className="ms-0 ms-md-4 py-3 t">Kuiper Belt</h1>
+                  <h1 className="carouselTitle ms-0 ms-md-4 py-3">
+                    Kuiper Belt
+                  </h1>
                   <span className="inTextCard">
                     <h6 className="py-3 ">
                       This is a second band of asteroid, larger in size and mass
