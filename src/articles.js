@@ -86,7 +86,7 @@ const articles = [
     conclusion:
       "So, should we go to Mars? The current technology, as well as the social and political implications may suggest it is still too early to take such a big step. Moving to Mars would mean learning how to terraform an entire, sterile, new world, and currently, we can barely keep control over our own planet (the ozone layer hole, pollution, global warming…). Are we really ready for this kind of journey?",
     references: "",
-    author: "Nino J. Traverso",
+    author: "Nino J. Traverso - 2024",
   },
 
   {
@@ -112,7 +112,7 @@ const articles = [
     conclusion:
       "Astronomy allows us to understand the universe we live in. This field has helped us create instruments to study the universe around us. We have been able to prove many scientific theories, such as Einstein’s prediction of how a black hole would look. We have also discovered exoplanets orbiting alien stars and predicted what will happen to our Sun. Astronomy is not only useful for our technological, scientific, and cultural development, but it is also necessary for our survival.",
     references: "",
-    author: "Nino J. Traverso",
+    author: "Nino J. Traverso - 2024",
   },
 
   {
@@ -140,7 +140,7 @@ const articles = [
       "Currently, these two methods seem to be the most promising, but further studies, methods, and research must be done in order to develop a proper planetary defence strategy to protect our planet from such threats. A planetary defence system is key to safeguarding our planet and protecting the life it hosts.",
     references:
       "Lubin P., Cohen AN, (2023) ‘Asteroid interception and disruption for terminal planetary defense’, Advances in Space Research, vol 71 (issue 3), page 1827-1839. Available at: https://www.sciencedirect.com/science/article/pii/S0273117722009395 (Accessed on: September 9, 2024)_________NASA/Johns Hopkins APL (2024), ‘Illustration of DART 2 – Illustration of  DART, from behind the NEXT-C ion engine’ [Digital Art], Available at: https://dart.jhuapl.edu/Gallery/index.php (Accessed on: September 9, 2024)",
-    author: "Nino J. Traverso",
+    author: "Nino J. Traverso - 2024",
   },
   {
     id: 4,
