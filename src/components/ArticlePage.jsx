@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import articles from "../articles";
 
 function ArticlePage() {
@@ -21,6 +22,29 @@ function ArticlePage() {
 
   return (
     <div id="articleCard" className={`article article${article.id} container`}>
+      <Helmet>
+        {/* Page Title */}
+        <title>{article.title} | CometOwl</title>
+
+        {/* Meta Description */}
+        <meta name="description" content={article.briefing} />
+
+        {/* Open Graph (Facebook, LinkedIn) */}
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.briefing} />
+        <meta property="og:image" content={article.frontImage} />
+        <meta
+          property="og:url"
+          content={`https://cometowl.com/articles/${article.id}`}
+        />
+        <meta property="og:type" content="article" />
+
+        {/* Twitter Cards */}
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.briefing} />
+        <meta name="twitter:image" content={article.frontImage} />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="nav-separator"></div>
       <div className="row justify-content-center">
         <div className="col-12 col-xl-8">
@@ -91,6 +115,8 @@ function ArticlePage() {
             <h5 className="details articleDetails d-flex justify-content-center my-5">
               {article.conclusion}
             </h5>
+            {/* Author */}
+            <h5 className="details articleDetails mb-4">{article.author}</h5>
 
             {/* References */}
             {article.references && (
@@ -101,11 +127,29 @@ function ArticlePage() {
                 </p>
               </>
             )}
-
-            {/* Author */}
-            <h5 className="details articleDetails">{article.author}</h5>
           </div>
         </div>
+      </div>
+      <div className="text-decoration-none">
+        <h3 className="">Related Articles</h3>
+        <ul>
+          {articles
+            .filter((a) => a.id !== article.id) // Exclude current article
+            .slice(0, 3) // Show only 3
+            .map((related) => (
+              <li key={related.id}>
+                <a
+                  className="relatedArticleLink text-decoration-none"
+                  href={`/articles/${related.title
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")
+                    .replace(/[^\w-]/g, "")}?id=${related.id}`}
+                >
+                  {related.title}
+                </a>
+              </li>
+            ))}
+        </ul>
       </div>
     </div>
   );
