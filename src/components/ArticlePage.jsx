@@ -28,6 +28,8 @@ function ArticlePage() {
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.briefing} />
         <meta property="og:image" content={article.frontImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta
           property="og:url"
           content={`https://cometowl.com/articles/${article.id}`}
@@ -38,6 +40,7 @@ function ArticlePage() {
         <meta name="twitter:image" content={article.frontImage} />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className="nav-separator"></div>
       <div className="row justify-content-center">
         <div className="col-12 col-xl-8">
