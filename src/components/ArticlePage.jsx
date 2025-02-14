@@ -20,24 +20,52 @@ function ArticlePage() {
     return <h2 className="text-center my-5">Article not found</h2>;
   }
 
+  // Ensure full URL for Open Graph images
+  const fullImageUrl = article.frontImage?.startsWith("http")
+    ? article.frontImage
+    : `https://cometowl.com${article.frontImage}`;
+
+  console.log("Open Graph Image URL:", fullImageUrl); // Debugging
+
   return (
     <div id="articleCard" className={`article article${article.id} container`}>
       <Helmet>
+        {/* Page Title & Description */}
         <title>{article.title} | CometOwl</title>
         <meta name="description" content={article.briefing} />
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.briefing} />
-        <meta property="og:image" content={article.frontImage} />
+
+        {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content={article.title}
+          data-react-helmet="true"
+        />
+        <meta
+          property="og:description"
+          content={article.briefing}
+          data-react-helmet="true"
+        />
+        <meta
+          property="og:image"
+          content={fullImageUrl}
+          data-react-helmet="true"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta
           property="og:url"
           content={`https://cometowl.com/articles/${article.id}`}
         />
         <meta property="og:type" content="article" />
+
+        {/* Twitter Card Meta Tags */}
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.briefing} />
-        <meta name="twitter:image" content={article.frontImage} />
+        <meta name="twitter:image" content={fullImageUrl} />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className="nav-separator"></div>
       <div className="row justify-content-center">
         <div className="col-12 col-xl-8">
@@ -45,6 +73,8 @@ function ArticlePage() {
             <h1 className="name articleName text-center my-4">
               {article.title}
             </h1>
+
+            {/* Article Featured Image */}
             {article.frontImage && (
               <div id="frontImage" className="image-container my-3">
                 <img
@@ -54,10 +84,12 @@ function ArticlePage() {
                 />
               </div>
             )}
+
             <h5 className="details articleDetails my-5">
               {article.introduction}
             </h5>
             <h5 className="details articleDetails my-5">{article.textOne}</h5>
+
             <div className="details articleDetails clearfix my-5">
               {article.illustrationOne && (
                 <img
@@ -68,6 +100,7 @@ function ArticlePage() {
               )}
               <h5>{article.textTwo}</h5>
             </div>
+
             <div className="details articleDetails clearfix my-5">
               {article.illustrationTwo && (
                 <img
@@ -78,7 +111,9 @@ function ArticlePage() {
               )}
               <h5>{article.textThree}</h5>
             </div>
+
             <h5 className="details articleDetails my-5">{article.textFour}</h5>
+
             {article.conclusionImage && (
               <div className="details articleDetails d-flex justify-content-center my-5">
                 <img
@@ -88,10 +123,13 @@ function ArticlePage() {
                 />
               </div>
             )}
+
             <h5 className="details articleDetails d-flex justify-content-center my-5">
               {article.conclusion}
             </h5>
             <h5 className="details articleDetails mb-4">{article.author}</h5>
+
+            {/* References Section */}
             {article.references && (
               <>
                 <h4 className="text-secondary">References</h4>
@@ -103,6 +141,8 @@ function ArticlePage() {
           </div>
         </div>
       </div>
+
+      {/* Related Articles Section */}
       <div className="text-decoration-none">
         <h3 className="">Related Articles</h3>
         <ul>
