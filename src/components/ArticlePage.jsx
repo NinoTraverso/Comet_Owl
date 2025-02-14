@@ -20,24 +20,37 @@ function ArticlePage() {
     return <h2 className="text-center my-5">Article not found</h2>;
   }
 
+  // Ensure the frontImage has an absolute URL
+  const fullImageUrl = article.frontImage.startsWith("http")
+    ? article.frontImage
+    : `https://cometowl.com${article.frontImage}`;
+
   return (
     <div id="articleCard" className={`article article${article.id} container`}>
       <Helmet>
         <title>{article.title} | CometOwl</title>
         <meta name="description" content={article.briefing} />
+
+        {/* Open Graph (Facebook, LinkedIn) */}
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.briefing} />
-        <meta property="og:image" content={article.frontImage} />
+        <meta property="og:image" content={fullImageUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta
           property="og:url"
           content={`https://cometowl.com/articles/${article.id}`}
         />
         <meta property="og:type" content="article" />
+
+        {/* Twitter Card */}
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.briefing} />
-        <meta name="twitter:image" content={article.frontImage} />
+        <meta name="twitter:image" content={fullImageUrl} />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className="nav-separator"></div>
       <div className="row justify-content-center">
         <div className="col-12 col-xl-8">
