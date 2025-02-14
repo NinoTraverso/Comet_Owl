@@ -71,7 +71,7 @@ const articles = [
     title: "Can we colonize Mars?",
     briefing:
       "Mars colonization faces immense challenges, from harsh conditions to limited resources. Surviving there would require heavy dependence on Earth, making the mission costly and risky.",
-    frontImage: "../assets/articleImages/canWeColonizeMars/marsSpaceship.jpg",
+    frontImage: "/assets/articleImages/canWeColonizeMars/marsSpaceship.jpg",
     introduction:
       "For the past few years, space agencies have been planning to colonize Mars in the near future, with the first mission estimated to launch in the 2030s. Although colonizing other planets is becoming closer to reality than to science fiction, going to Mars would not be beneficial.",
     textOne: "",
