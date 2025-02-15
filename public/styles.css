@@ -668,6 +668,12 @@ GRAY-BLUE: #45717a (69, 113, 122)
   color: #ee6c9e;
 }
 
+/*----------------------- EXOPLANET EXPLAINATIONS ------------------------*/
+.exoplanetsPageSecondaryTitles {
+  font-weight: bold;
+  color: #f99417;
+}
+
 /*------------------------------------------------------------ EXOPLANETS LIST -------------------------------------------------------------*/
 
 /*-------------------- EXOPLANETS INPUT FIELD AND ID SEARCH BUTTON -----------------------*/
