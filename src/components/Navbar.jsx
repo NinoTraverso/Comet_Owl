@@ -42,7 +42,7 @@ function Navbar() {
         </nav>
         <nav
           id="collapseNavbar"
-          className=" navbar navbar-dark d-flex d-xl-none  mx-md-3"
+          className=" navbar navbar-dark d-flex d-xl-none  "
         >
           <div className="container-fluid d-flex flex-column flex-md-row justify-content-between">
             <div id="NavLogoContainerSmall">
