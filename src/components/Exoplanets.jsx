@@ -120,7 +120,7 @@ function Exoplanets() {
             </li>
           ))
         ) : (
-          <li>No exoplanets found.</li>
+          <li>Loading error...try again later.</li>
         )}
       </ul>
 
