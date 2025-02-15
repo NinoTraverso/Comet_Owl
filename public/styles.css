@@ -17,6 +17,15 @@ ORANGE: #F99417 (249, 148, 23)
 PINK: ##ea4c89 
 WHITE: #F5F5F5 (245, 245, 245)
 GRAY-BLUE: #45717a (69, 113, 122)
+
+ALTERNATIVE: 
+
+BLACK: #19181A
+GREEN: #479761
+YELLOW: #CEBC81
+PINK: #A16E83
+GREY: #B19F9E
+
 */
 
 html,
@@ -49,7 +58,7 @@ body {
 /*---------------------------------------------------------- NAVBAR ------------------------------------------------------------*/
 nav {
   font-family: "Nova Mono", monospace;
-  background-color: rgba(69, 113, 122, 0.4);
+  background-color: #19181a;
 
   font-family: "Dosis", sans-serif;
   color: whitesmoke;
@@ -1061,7 +1070,7 @@ PINK: #EA4C89 (234, 76, 137)
 */
 
 footer {
-  background-color: #45717a;
+  background-color: #19181a;
 }
 #footerLogo {
   width: 400px;
