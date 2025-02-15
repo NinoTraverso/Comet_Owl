@@ -14,7 +14,7 @@ function Navbar() {
     <div className="mb-5">
       <BrowserRouter>
         <nav className="d-none d-xl-flex flex-row jusify-content-start align-items-center ">
-          <div id="NavLogoContainer">
+          <div id="NavLogoContainer" className="mx-3">
             <Link to="/Home">
               <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
             </Link>
@@ -42,7 +42,7 @@ function Navbar() {
         </nav>
         <nav
           id="collapseNavbar"
-          className=" navbar navbar-dark d-flex d-xl-none mx-3"
+          className=" navbar navbar-dark d-flex d-xl-none  mx-md-3"
         >
           <div className="container-fluid d-flex flex-column flex-md-row justify-content-between">
             <div id="NavLogoContainerSmall">
