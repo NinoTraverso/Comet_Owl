@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="mb-5">
       <BrowserRouter>
-        <nav className="d-none d-xl-flex flex-row jusify-content-start align-items-center fixed-top ">
+        <nav className="d-none d-xl-flex flex-row jusify-content-start align-items-center ">
           <div id="NavLogoContainer">
             <Link to="/Home">
               <img src="/assets/logo/logoAndName.png" alt="Comet Owl Logo" />
