@@ -79,8 +79,28 @@ nav {
 }
 
 #collapseNavbar {
-  background-color: rgba(69, 113, 122, 0.4);
   font-family: "Dosis", sans-serif;
+}
+
+#NavLogoContainer {
+  width: 360px;
+  height: auto;
+}
+
+#NavLogoContainerSmall img {
+  width: 360px;
+  height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  #NavLogoContainer {
+    width: 360px;
+    height: auto;
+  }
+  #NavLogoContainerSmall img {
+    width: 280px;
+    height: auto;
+  }
 }
 
 .nav-link h4 {
