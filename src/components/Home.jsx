@@ -39,7 +39,7 @@ function Home() {
             <img src="./assets/icons/satellite.svg" alt="" />
           </div>
           <h1 className="w-75 text-center">
-            At CometOwl we strive to give you the best Astronomy experience...
+            Discover insightful Astronomy articles!
           </h1>
           <div className="loaderOne my-5"></div>
         </div>
@@ -52,7 +52,7 @@ function Home() {
             <img src="./assets/icons/rocket.svg" alt="" />
           </div>
           <h1 className="w-75 text-center">
-            Discover the Solar System and delve with us into the stars.
+            Explore space beyond our Solar System...
           </h1>
           <div className="loaderTwo my-5"></div>
         </div>
