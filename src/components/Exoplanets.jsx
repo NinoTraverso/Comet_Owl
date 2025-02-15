@@ -249,8 +249,8 @@ function Exoplanets() {
                   </h3>
                   <h3 className="my-5">
                     We cannot assume that extraterrestrial life, if any out
-                    there, is the same as that but we should assume they are
-                    completely different from us.
+                    there, is the same as that on our planet but we should
+                    rather assume they are completely different from us.
                   </h3>
                   <h3 className="my-5">
                     Light travels at ~300,000 km/s, so even if we detected
@@ -263,15 +263,15 @@ function Exoplanets() {
                     Additonaly, water is thought to be the universal solvent for
                     many reasons, and it's considered the best solvent for
                     organic chemical reactions. For this reason, we are looking
-                    among exoplanets in the habitable zone where water could be
-                    at its liquid form. However, liquid water and whether an
-                    exoplanet is within the habitable zone are not the only
+                    among exoplanets in the habitable zone where water could
+                    exist in its liquid form. However, liquid water and whether
+                    an exoplanet is within the habitable zone are not the only
                     factors in determining the potential for life. Other
                     factors, such as a planet's albedo, atmospheric composition,
                     cloud presence, tidal heating, primordial heating,
                     greenhouse gases, and internal radioactive decay, also play
-                    a significant role in determining whether water could exist
-                    in its liquid form.
+                    a significant role in determining a planet's habitabilit and
+                    whether water could exist in its liquid form.
                   </h3>
                   <h3 className="my-5">
                     It seems unlikely that we will be able to have direct
